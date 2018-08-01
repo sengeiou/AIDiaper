@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/raw/song1.mp3",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/raw/song1.mp3"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/raw/song2.mp3",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/raw/song2.mp3"
+    }
+]

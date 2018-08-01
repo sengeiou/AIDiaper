@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/menu/set_menu.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/menu/set_menu.xml"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/menu/main.xml"
+    }
+]

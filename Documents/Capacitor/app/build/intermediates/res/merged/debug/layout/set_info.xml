@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="10dip"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:textSize="20sp"
+            android:text="T1"/>
+
+        <EditText
+            android:id="@+id/t1"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:phoneNumber="true"
+            android:text="100"
+            android:maxLength="6"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="T2"/>
+
+        <EditText
+            android:id="@+id/t2"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:phoneNumber="true"
+            android:text="300"
+            android:maxLength="6"
+            />
+
+    </LinearLayout>
+
+    <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingBottom="10dip"
+           android:paddingTop="10dip"
+           android:text="(T1、T2数值必须为5的倍数)"
+           android:textSize="14sp"/>
+
+    <!--  <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingTop="10dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:paddingLeft="5dp"
+               android:text="黄色触发值"/>
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="30"
+               android:numeric="integer"
+               android:maxLength="3"
+               android:phoneNumber="true"/>
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingBottom="10dip"
+           android:paddingTop="10dip"
+           android:text="(数值范围1 ~ 998,预设值30)"
+           android:textSize="14sp"/>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingTop="10dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:paddingLeft="5dp"
+               android:text="红色触发值"/>
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="300"
+               android:numeric="integer"
+               android:maxLength="3"
+               android:phoneNumber="true"/>
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingBottom="10dip"
+           android:paddingTop="10dip"
+           android:text="(数值范围2 ~ 999,红色触发值大于黄色触发值,预设值300)"
+           android:textSize="14sp"/>
+
+           -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/setBt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="设置"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

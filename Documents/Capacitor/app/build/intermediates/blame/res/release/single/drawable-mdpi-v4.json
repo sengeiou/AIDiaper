@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/drawable-mdpi-v4/hongjia.png",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/drawable-mdpi/hongjia.png"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/drawable-mdpi-v4/icon.png",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/drawable-mdpi-v4/button_shape.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/drawable-mdpi/button_shape.xml"
+    }
+]

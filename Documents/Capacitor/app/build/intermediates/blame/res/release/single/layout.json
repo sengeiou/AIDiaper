@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/layout/actionbar_indeterminate_progress.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/layout/actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/layout/set_info.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/layout/set_info.xml"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/layout/list.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/layout/list.xml"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/layout/bluetooth_control.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/layout/bluetooth_control.xml"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/layout/show_info.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/layout/show_info.xml"
+    },
+    {
+        "merged": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/Users/wuruizhi/Desktop/wuAndroid/Capacitor/app/src/main/res/layout/activity_main.xml"
+    }
+]
