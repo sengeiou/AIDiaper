@@ -1,0 +1,102 @@
+<ion-header>
+    <div class="padding-20 topbar flex-row flex-center">
+      <div>
+        <img src="assets/imgs/icon.png" class="logoicon" />
+      </div>
+      <div class="margin-left-10 txt-white txt-bold">
+        NO:001+{{count}}
+      </div>
+      <div class="txt-white text-right flex-1 txt-bold">
+        电量：{{aidevice.battery}}
+      </div>
+    </div>
+</ion-header>
+<ion-content>
+  <div class="margin-top-3 padding-10">
+    <div class="border-radius-5" [style.background-color]='aidevice.currentstatus.color'>
+      <div class="padding-10 ">
+
+        <div class="flex-row flex-center">
+          <div class="flex-1">
+              <div class="txt-bold h5" style="color:#f1f1f1">已使用时长：{{aidevice.usetime}}</div>
+          </div>
+          <div class="flex-1 text-right" *ngIf="aidevice.Version!=0">
+              <div class="txt-bold h5" style="color:#f1f1f1">温度：{{aidevice.temperature}}℃</div>
+          </div>
+        </div>
+        <div class="margin-top text-center">
+          <div class="h5">综合舒适指数：{{aidevice.wetval}}</div>
+          <div class=" txt-bold" style="font-size: 52px">{{aidevice.currentstatus.name}}</div>
+        </div>
+        <div class="margin-top padding-10" >
+          <div class="msgbg h5 padding-5 border-radius-5 txt-white text-center"  >{{aidevice.currentstatus.msg}}</div>
+        </div>
+      </div>
+      <div class="flex-row">
+        <div *ngFor="let item of aidevice.statuslist;let l=index;" class="flex-1 c{{l}}" [style.background-color]='item.color' style="height:20px"></div>
+      </div>
+    </div>
+  </div>
+  <div class="h6">
+    调试：{{device.advertising}}
+  </div>
+  <div class="margin-top-3 padding-10" style="padding-top: 0px;">
+    <div class="border-radius-5 border flex-row flex-center white-block">
+      <div class="padding-20 h4 lkfont text-center" >预测尿量</div>
+      <div>
+        <img class="shuxian" />
+      </div>
+      <div class="flex-1 h3 text-center">{{aidevice.wetml}}</div>
+      <div class="flex-1 h4 text-center">
+          {{setting.mashu=='1'?"成人大码":""}}
+          {{setting.mashu=='2'?"成人中码":""}}
+          {{setting.mashu=='3'?"成人均码":""}}
+      </div>
+    </div>
+  </div>
+  <div class="margin-top-3 padding-10" style="padding-top: 0px;" *ngIf="aidevice.fall=='Y'">
+    <div class="border-radius-5 border flex-row flex-center white-block" style="background: #d00000">
+      <div class="padding-20 h4 lkfont text-center" >应急提醒</div>
+      <div>
+        <img class="shuxian" />
+      </div>
+      <div class="flex-1 h3  text-center">摔倒护理</div>
+    </div>
+  </div>
+  <div class="margin-top-3 padding-10" style="padding-top: 0px;">
+    <div class="border-radius-5 border flex-row flex-center white-block">
+      <div class="padding-20 h4 lkfont text-center" >睡姿监控</div>
+      <div>
+        <img class="shuxian" />
+      </div>
+      <div class="flex-1 h3 text-center">
+          {{aidevice.post}}
+      </div>
+      <div class="flex-1 h5 text-center">
+          时长：{{aidevice.nomovetime}}
+      </div>
+      
+    </div>
+  </div>
+  <div class="margin-top-3 padding-10" style="padding-top: 0px;">
+    <div class="border-radius-5 border flex-row flex-center white-block">
+      <div class="padding-20 h4 lkfont text-center" >用户设置</div>
+      <div>
+        <img class="shuxian" />
+      </div>
+      <div class="flex-1 text-center">
+        <div class="h6">声音</div>
+        <div class="h3">{{setting.sound=='Y'?"开":"关"}}</div>
+      </div>
+      <div class="flex-1 text-center">
+        <div class="h6">灵敏度</div>
+        <div class="h3">{{setting.shushi=='1'?"最节约":""}}
+            {{setting.shushi=='2'?"经济":""}}
+            {{setting.shushi=='3'?"平衡":""}}
+            {{setting.shushi=='4'?"舒适":""}}
+            {{setting.shushi=='5'?"最舒适":""}}
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

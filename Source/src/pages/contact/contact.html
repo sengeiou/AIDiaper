@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      设置
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-list-header>
+          基础设置
+        </ion-list-header>
+        <ion-item>
+          <ion-label>声音</ion-label>
+          <ion-select  [(ngModel)]="setting.sound"  (ionChange)="selectSound()" cancelText="取消" okText="确认">
+            <ion-option value="Y" >开</ion-option>
+            <ion-option value="N"  >关</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label>灵敏度</ion-label>
+          <ion-select [(ngModel)]="setting.shushi"  (ionChange)="selectShushi()" cancelText="取消" okText="确认">
+            <ion-option value="0">最节约</ion-option>
+            <ion-option value="1">经济</ion-option>
+            <ion-option value="2">平衡</ion-option>
+            <ion-option value="3">舒适</ion-option>
+            <ion-option value="4">最舒适</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label>码数</ion-label>
+          <ion-select [(ngModel)]="setting.mashu"  (ionChange)="selectMashu()" cancelText="取消" okText="确认">
+            <ion-option value="1">大码</ion-option>
+            <ion-option value="2">中码</ion-option>
+            <ion-option value="3">均码</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label>翻身提醒</ion-label>
+          <ion-select [(ngModel)]="setting.fanshen"  (ionChange)="selectFanshen()" cancelText="取消" okText="确认">
+            <ion-option value="1">1小时</ion-option>
+            <ion-option value="2">3小时</ion-option>
+            <ion-option value="3">5小时</ion-option>
+            <ion-option value="4">不提醒</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+</ion-content>

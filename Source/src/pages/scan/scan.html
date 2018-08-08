@@ -1,0 +1,29 @@
+<!--
+  Generated template for the ScanPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+  <ion-slides pager #myslider auto>
+
+    <ion-slide >
+      <h2>正在寻找智能感应器</h2>
+    </ion-slide>
+  
+    <ion-slide >
+      <div class="h3">
+        找到以下设备，请点击进入开始监控
+      </div>
+      <div *ngFor="let item of devicelist;let i=index;" class="deviceitem margin-top padding-20"
+       (click)="selectDevice(item)">
+        <div class="h5" >
+          <div >{{item.name}}</div>
+          <div class="h6 txt-gray">{{item.id}}</div>
+          <div class="h6 txt-gray">{{item.data}}</div>
+        </div>
+      </div>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

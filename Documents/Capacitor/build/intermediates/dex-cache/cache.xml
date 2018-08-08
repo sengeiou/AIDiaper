@@ -1,3 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_6e867891ba2a43b20c86f2a6ff824bd474ce2c32.jar" />
+    </item>
+    <item
+        jar="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_a91c93ed5a03b03d6ef860f775246bbd5b8f29cb.jar" />
+    </item>
+    <item
+        jar="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_2e2ad53b9f5daa15d9e158304cba1d91323ffd3f.jar" />
+    </item>
+    <item
+        jar="/Users/steve/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_432d6e3aad6b776756350599503eea751f5d22bd.jar" />
+    </item>
+    <item
+        jar="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_11bb591e2e41a847a95cc96c80c6f1a7003406ec.jar" />
+    </item>
+
+</items>

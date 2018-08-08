@@ -1,742 +1,994 @@
 [
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_1.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/vibratoroff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/vibratoroff.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1backup.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/logout.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/logout.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bthelp.xml",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bthelp.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bthelp.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bthelp.xml"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_2.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help2.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_2.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconeat.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconeat.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help2.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\off.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\off.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconeat.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconeat.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nosignal.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\nosignal.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\off.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\off.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btlogout.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\btlogout.xml"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_orange.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_orange.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nosignal.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\nosignal.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pashui.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\pashui.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\networkerror.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\networkerror.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_1.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\off.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\off.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btlogout.xml",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\btlogout.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoroff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoroff.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_orange.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_orange.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pashui.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\pashui.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_1.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_1.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hongjia.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\hongjia.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\off.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\off.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_0.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoroff.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoroff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper3.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper3.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bedicon_blue.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bedicon_blue.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\careaselogo.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\careaselogo.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_1.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailnoclipicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailnoclipicon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hongjia.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\hongjia.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_blue.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_blue.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarm.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\record.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_0.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/battery_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/battery_2.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonoff.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonoff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundon.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_full.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_full.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detaildamptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detaildamptimeicon.png"
     },
     {
-        "merged": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hongjia.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\hongjia.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bthelp.xml",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bthelp.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_gray.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_gray.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\empty.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\empty.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bbsmile.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bbsmile.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/windowbckgrnd.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/windowbckgrnd.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailnoclipicon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailnoclipicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_blue.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_blue.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbsmile.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbsmile.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_0.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\record.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_full.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3backup.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\windowbckgrnd.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\windowbckgrnd.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/help2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/help2.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detaildamptimeicon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detaildamptimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bedicon_red.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bedicon_red.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\careaselogo.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\careaselogo.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailnoclipicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailnoclipicon.png"
     },
     {
-        "merged": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hongjia.png",
-        "source": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\hongjia.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pashui.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\pashui.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_gray.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_gray.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/logotan.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/logotan.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\record.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/detaildamptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/detaildamptimeicon.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailmoisttimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailmoisttimeicon.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2backup.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_2.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3.png"
     },
     {
-        "merged": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
-        "source": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_0.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3backup.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbsmile.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbsmile.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconpill.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconpill.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/signal_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/signal_1.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_red.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_red.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_full.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_full.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/soundoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/soundoff.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\windowbckgrnd.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\windowbckgrnd.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailnoclipicon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailnoclipicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoron.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoron.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundoff.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundoff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconpill.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconpill.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pashui.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\pashui.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-hdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbcry.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbcry.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_2.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/battery_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/battery_0.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout2.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_0.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailmoisttimeicon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailmoisttimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/record.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/record.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\networkerror.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\networkerror.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2backup.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/fall.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/fall.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help2.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\off.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\off.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detaildamptimeicon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detaildamptimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nosignal.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\nosignal.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbcry.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbcry.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3backup.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/vibratoron.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/vibratoron.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailnoclipicon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailnoclipicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alert.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_full.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_full.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailcliptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailcliptimeicon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\networkerror.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\networkerror.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logotan.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logotan.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_red.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_red.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundoff.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailwettimeicon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailwettimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconeat.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconeat.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoron.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoron.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper2backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper2backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconpill.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconpill.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/signal_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/signal_full.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0backup.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_0.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_2.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bedicon_orange.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bedicon_orange.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_0.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_orange.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_orange.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout2.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btlogout.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\btlogout.xml"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\networkerror.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\networkerror.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonoff.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nosignal.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\nosignal.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/detailcliptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/detailcliptimeicon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\off.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\off.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_full.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_full.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundon.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alert.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_gray.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_gray.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbcry.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbcry.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoroff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoroff.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_yellow.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_yellow.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\record.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pashui.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/pashui.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sensoropen.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\sensoropen.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alert.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailcliptimeicon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailcliptimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1backup.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/sensoropen.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/sensoropen.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconeat.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconeat.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logotan.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logotan.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailwettimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailwettimeicon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_blue.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_blue.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_orange.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_orange.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailmoisttimeicon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailmoisttimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_1.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundoff.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundoff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_red.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_red.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0backup.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3backup.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\careaselogo.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\careaselogo.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconeat.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconeat.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alert.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sensoropen.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\sensoropen.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoroff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoroff.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_0.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/alert.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/alert.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_red.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_red.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_full.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_full.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout2.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btlogout.xml",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\btlogout.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bthelp.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bthelp.xml"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconpill.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconpill.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper0backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper0backup.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_blue.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_blue.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailwettimeicon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailwettimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_gray.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_gray.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_1.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bedicon_yellow.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bedicon_yellow.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hongjia.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\hongjia.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fall.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\fall.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_2.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailmoisttimeicon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailmoisttimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout2.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonoff.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonoff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailcliptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailcliptimeicon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundon.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoron.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoron.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_1.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_2.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\windowbckgrnd.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\windowbckgrnd.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/networkerror.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/networkerror.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarm.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_2.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_gray.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_gray.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\networkerror.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\networkerror.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoroff.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoroff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detaildamptimeicon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detaildamptimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\careaselogo.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\careaselogo.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarm.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_yellow.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_yellow.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/signal_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/signal_0.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonoff.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sensoropen.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\sensoropen.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_full.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nosignal.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\nosignal.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bthelp.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bthelp.xml"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarm.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\empty.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\empty.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconeat.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconeat.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailwettimeicon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailwettimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_0.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_blue.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_blue.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/main_background.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/main_background.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1backup.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3backup.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\careaselogo.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\careaselogo.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_yellow.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_yellow.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\record.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/signal_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/signal_2.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help2.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_2.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_0.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_0.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_1.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_0.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btlogout.xml",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\btlogout.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconpill.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconpill.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbsmile.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbsmile.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/nosignal.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/nosignal.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoron.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoron.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundoff.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_full.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_full.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbcry.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbcry.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_red.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_red.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/alarmiconeat.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/alarmiconeat.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pashui.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\pashui.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/alarmiconpill.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/alarmiconpill.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/alarm.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/alarm.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailcliptimeicon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailcliptimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout2.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2backup.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_1.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper2backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper2backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\careaselogo.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\careaselogo.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help2.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonoff.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonoff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detaildamptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detaildamptimeicon.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/button_shape.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/button_shape.xml"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbsmile.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbsmile.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailnoclipicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailnoclipicon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alert.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/battery_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/battery_full.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoroff.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoroff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_full.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_yellow.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_yellow.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\networkerror.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\networkerror.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundoff.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundoff.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/help.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/help.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_red.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_red.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailwettimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailwettimeicon.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sensoropen.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\sensoropen.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/buttonon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/buttonon.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper2.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/off.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/off.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbcry.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbcry.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/btlogout.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/btlogout.xml"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/logout2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/logout2.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0backup.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bthelp.xml",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bthelp.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_orange.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_orange.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0backup.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0backup.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_gray.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_gray.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_full.png"
     },
     {
-        "merged": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
-        "source": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alert.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\windowbckgrnd.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\windowbckgrnd.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bedicon_gray.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bedicon_gray.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fall.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\fall.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/soundon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/soundon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_2.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\record.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/detailnoclipicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/detailnoclipicon.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout2.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout2.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/buttonoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/buttonoff.png"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailcliptimeicon.png",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailcliptimeicon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1backup.png"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundon.png",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundon.png"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/settings.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/settings.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_orange.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_orange.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/detailwettimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/detailwettimeicon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailmoisttimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailmoisttimeicon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper0.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3backup.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sensoropen.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\sensoropen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_full.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarmiconpill.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarmiconpill.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_blue.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_blue.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailwettimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailwettimeicon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_1.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hongjia.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\hongjia.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_2.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailmoisttimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailmoisttimeicon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/battery.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/battery.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logout.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoron.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoron.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\windowbckgrnd.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\windowbckgrnd.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarm.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bbcry.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/bbcry.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detaildamptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detaildamptimeicon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper3.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper3.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nosignal.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\nosignal.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\alarm.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/careaselogo.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/careaselogo.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\diaper1backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\diaper1backup.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/battery_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/battery_1.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper1.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_yellow.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_yellow.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help2.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper3backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper3backup.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_0.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btlogout.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\btlogout.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbsmile.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbsmile.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vibratoron.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\vibratoron.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_full.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_full.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper0.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper0.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pashui.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\pashui.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/detailmoisttimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/detailmoisttimeicon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detailcliptimeicon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\detailcliptimeicon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_1.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\battery_1.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\buttonoff.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbsmile.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbsmile.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bedicon_yellow.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bedicon_yellow.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\soundoff.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\soundoff.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/empty.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/empty.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sensoropen.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\sensoropen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\help.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bbcry.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bbcry.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bthelp.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\bthelp.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/diaper1backup.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/drawable-hdpi/diaper1backup.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\button_shape.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\windowbckgrnd.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\windowbckgrnd.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signal_2.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\drawable-hdpi\\signal_2.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-hdpi/common_ic_googleplayservices.png"
     }
 ]

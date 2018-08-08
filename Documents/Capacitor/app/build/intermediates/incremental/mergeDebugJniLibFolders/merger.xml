@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\_ALEX\Working\Capacitor7-16\Capacitor\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="E:\_ALEX\Working\Capacitor7-16\Capacitor\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/debug/jniLibs"/></dataSet></merger>

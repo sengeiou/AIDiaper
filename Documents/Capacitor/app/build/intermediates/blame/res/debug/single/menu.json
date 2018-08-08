@@ -1,34 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
     },
     {
-        "merged": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/menu/set_menu.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/menu/set_menu.xml"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/E:\\_ALEX\\Working\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
-        "source": "C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
-        "source": "C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/app/src/main/res/menu/main.xml"
     },
     {
-        "merged": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
-        "source": "D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\Alex\\Desktop\\Capacitor7-10\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/C:\\Users\\wuruizhi\\Desktop\\wuAndroid\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\set_menu.xml",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Documents/Capacitor/D:\\AlexFolder\\Android\\Capacitor7-16\\Capacitor\\app\\src\\main\\res\\menu\\set_menu.xml"
     }
 ]
