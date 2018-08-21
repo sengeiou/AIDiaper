@@ -55,8 +55,8 @@ export class AppUtil {
         val = val * 1.0;
         return val.toFixed(digits);
     }
-    public static FormatDate(val) {
-        return val.substr(0, 10);
+    public static FormatDate(val: Date) {
+        return val.getFullYear() + "-" + (val.getMonth() + 1) + "-" + val.getDate();
     }
 
     

@@ -7,16 +7,20 @@ import {HttpModule} from "@angular/http";
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
+import { MallPage } from '../pages/mall/mall';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 import { BLE } from '@ionic-native/ble';
-import { BluetoothSerial } from '@ionic-native/bluetooth-serial';
 import { BackgroundMode } from '@ionic-native/background-mode';
 
 import { IonicStorageModule } from '@ionic/storage';
+import { RecordApi } from '../providers/record.api';
+import { AppUpdate } from '@ionic-native/app-update';
+
+
 
 @NgModule({
   declarations: [
@@ -24,6 +28,7 @@ import { IonicStorageModule } from '@ionic/storage';
     AboutPage,
     ContactPage,
     HomePage,
+    MallPage,
     TabsPage
   ],
   imports: [
@@ -47,6 +52,7 @@ import { IonicStorageModule } from '@ionic/storage';
     AboutPage,
     ContactPage,
     HomePage,
+    MallPage,
     TabsPage
   ],
   providers: [
@@ -55,7 +61,8 @@ import { IonicStorageModule } from '@ionic/storage';
     LocalNotifications,
     BLE,
     BackgroundMode,
-    BluetoothSerial,
+    RecordApi,
+    AppUpdate,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

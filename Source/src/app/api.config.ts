@@ -5,16 +5,16 @@ import { Observable } from 'rxjs/Observable';
 export class ApiConfig {
 	
     public static getApiUrl() {
-        return "https://cmsdev.app-link.org/alucard263096/zhizhenapp/api/";
+        return "https://cmsdev.app-link.org/alucard263096/aidiaper/api/";
     }
     public static getUploadPath() {
-        return "https://alioss.app-link.org/alucard263096/zhizhenapp/";
+        return "https://alioss.app-link.org/alucard263096/aidiaper/";
     }
     public static getFileUploadAPI() {
-        return "https://cmsdev.app-link.org/alucard263096/zhizhenapp/fileupload";
+        return "https://cmsdev.app-link.org/alucard263096/aidiaper/fileupload";
     }
     public static getDataBaseName() {
-        return "alucard263096_zhizhenapp.db";
+        return "alucard263096_aidiaper.db";
     }
 	
     public static ParamUrlencoded(json) {

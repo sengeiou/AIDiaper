@@ -12,6 +12,13 @@
           基础设置
         </ion-list-header>
         <ion-item>
+          <ion-label>报警</ion-label>
+          <ion-select  [(ngModel)]="setting.alert" [mode]="ios"  (ionChange)="selectAlert()" cancelText="取消" okText="确认">
+            <ion-option value="Y" >开</ion-option>
+            <ion-option value="N"  >关</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
           <ion-label>声音</ion-label>
           <ion-select  [(ngModel)]="setting.sound"  (ionChange)="selectSound()" cancelText="取消" okText="确认">
             <ion-option value="Y" >开</ion-option>
@@ -31,19 +38,23 @@
         <ion-item>
           <ion-label>码数</ion-label>
           <ion-select [(ngModel)]="setting.mashu"  (ionChange)="selectMashu()" cancelText="取消" okText="确认">
-            <ion-option value="1">大码</ion-option>
-            <ion-option value="2">中码</ion-option>
-            <ion-option value="3">均码</ion-option>
+            <ion-option value="1">XL码</ion-option>
+            <ion-option value="2">L码</ion-option>
+            <ion-option value="3">M码</ion-option>
           </ion-select>
         </ion-item>
         <ion-item>
           <ion-label>翻身提醒</ion-label>
           <ion-select [(ngModel)]="setting.fanshen"  (ionChange)="selectFanshen()" cancelText="取消" okText="确认">
             <ion-option value="1">1小时</ion-option>
-            <ion-option value="2">3小时</ion-option>
-            <ion-option value="3">5小时</ion-option>
+            <ion-option value="2">2小时</ion-option>
+            <ion-option value="3">3小时</ion-option>
             <ion-option value="4">不提醒</ion-option>
           </ion-select>
         </ion-item>
-      </ion-list>
+      </ion-list><button ion-button (click)="rescan(1)" class="bottombutton">
+          重新扫描设备
+        </button>
+
+
 </ion-content>

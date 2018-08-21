@@ -14,6 +14,9 @@ export class ContactPage extends AppBase {
   ) {
     super(navCtrl,modalCtrl,viewCtrl,statusBar);
   }
+  selectAlert(e){
+    AppBase.Storage.set("setting_alert",this.setting.alert);
+  }
   selectSound(e){
     AppBase.Storage.set("setting_sound",this.setting.sound);
   }
@@ -25,5 +28,13 @@ export class ContactPage extends AppBase {
   }
   selectFanshen(e){
     AppBase.Storage.set("setting_fanshen",this.setting.fanshen);
+  }
+  rescan(){
+    AppBase.research=true;
+    this.modal("ScanPage",{},(selectdevice)=>{
+      if(selectdevice!=undefined){
+        this.changeTab(0,null);
+      }
+    });
   }
 }

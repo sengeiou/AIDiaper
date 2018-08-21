@@ -21,10 +21,25 @@ export class MyApp {
       splashScreen.hide();
       console.log(platform);
 
+      //appUpdate.checkAppUpdate("http://cmsdev.app-link.org/alucard263096/aidiaper/api/apkupdate/version");
+
       AppBase.IsIos=platform.is("ios");;
       AppBase.IsAndroid=platform.is("android");
-      AppBase.IsMobileWeb=platform.is("mobileweb"); ;
+      AppBase.IsMobileWeb=platform.is("mobileweb"); 
       AppBase.Storage=storage;
+
+      storage.get("setting_alert").then(ret=>{
+
+        if(ret==null){
+
+          AppBase.Setting.alert="Y";
+          storage.set("setting_alert","Y");
+        }else{
+
+          AppBase.Setting.alert=ret;
+        }
+      }).catch((e)=>{
+      });
 
       storage.get("setting_sound").then(ret=>{
 

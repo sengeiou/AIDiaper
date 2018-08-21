@@ -8,9 +8,10 @@ import { NavController, ModalController, ViewController, App } from "ionic-angul
 import { Storage } from '@ionic/storage';
 
 export class AppBase{
+    static research=false;
 
     static Storage:Storage=null;
-    static Setting={sound:"Y",shushi:"1",mashu:"1",fanshen:"1"};
+    static Setting={alert:"Y",sound:"Y",shushi:"1",mashu:"1",fanshen:"1"};
     setting=null;
 
     Lang=[];
