@@ -4,7 +4,7 @@
       <img src="assets/imgs/icon.png" class="logoicon" />
     </div>
     <div class="margin-left-10 txt-white txt-bold">
-      NO:001
+      NO:{{aidevice.no}}
     </div>
     <div class="flex-1 text-right txt-white">
       电量：
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="margin-top text-center">
-          <div class="h5">综合舒适指数：{{(100-aidevice.shushidu)<0?0:(100-aidevice.shushidu)}}</div>
+          <div class="h5">综合舒适指数：{{((100-aidevice.shushidu)<0)?0:(100-aidevice.shushidu)}}</div>
           <!--<div>{{aidevice.greenYV}}->{{aidevice.yellowV}}->{{aidevice.orangeV}}->{{aidevice.redV}}</div>-->
           <div class=" txt-bold" style="font-size: 52px">{{aidevice.currentstatus.name}}</div>
         </div>
@@ -75,9 +75,10 @@
       <div>
         <img class="shuxian" />
       </div>
-      <div class="flex-1 h3  text-center">摔倒护理</div>
+      <div class="flex-1 h3  text-center" *ngIf="aidevice.fall=='Y'" (click)="handelFall()" >摔倒护理</div>
+      <div class="flex-1 h3  text-center" *ngIf="aidevice.fall!='Y'" >暂无</div>
       <div class="flex-1 h4 text-center" >
-        <img src="assets/res/fall.png" class="fallpic" *ngIf="aidevice.fall=='Y'" />
+        <img src="assets/res/fall.png" class="fallpic" *ngIf="aidevice.fall=='Y'" (click)="handelFall()" />
       </div>
     </div>
   </div>

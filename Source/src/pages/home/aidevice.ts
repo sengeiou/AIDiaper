@@ -27,7 +27,7 @@ export class AIDevice {
     orangeV = 22;//橙色触发值
 
 
-
+    no="";
     wetml = "0ml";
     ml = 0;
     wetval = "--";
@@ -59,8 +59,8 @@ export class AIDevice {
         this.statuslist.push({ color: "rgb(66,187,55)", name: "舒适", msg: "目前感觉非常舒适", v: 100, wet: 0 });
         this.statuslist.push({ color: "rgb(107,251,13)", name: "干爽", msg: "目前状态良好", v: 75, wet: 1 });
         this.statuslist.push({ color: "rgb(255,255,11)", name: "适中", msg: "目前状态适中", v: 50, wet: 2 });
-        this.statuslist.push({ color: "rgb(253,166,10)", name: "微潮", msg: "尿布状态已经微湿，请立即跟换", v: 25, wet: 3 });
-        this.statuslist.push({ color: "rgb(250,0,63)", name: "潮湿", msg: "尿布状态已经不舒服，请立即跟换", v: 0, wet: 4 });
+        this.statuslist.push({ color: "rgb(253,166,10)", name: "微潮", msg: "尿布状态已经微湿，请立即更换", v: 25, wet: 3 });
+        this.statuslist.push({ color: "rgb(250,0,63)", name: "潮湿", msg: "尿布状态已经不舒服，请立即更换", v: 0, wet: 4 });
 
         this.currentstatus = this.disconnectstatus;
         this.lastupdatetime = (new Date).getTime() / 1000;
@@ -97,6 +97,12 @@ export class AIDevice {
 
     reloaddata(deviceid, datastr: String) {
         this.deviceid = deviceid;
+        try{
+            var devcut=this.deviceid.split(":");
+            this.no=devcut[devcut.length-1];
+        }catch(e){
+            this.no="";
+        }
         this.lastupdatetime = (new Date).getTime() / 1000;
         this.advertising = datastr;
         this.scanRecord = datastr.split(",");
@@ -415,6 +421,12 @@ export class AIDevice {
             this.notify(15, this.statuslist[4].msg);
         }
         if (level > this.level) {
+            if(level==1){
+                this.notify(12,this.statuslist[1].msg);
+            }
+            if(level==4){
+                this.notify(14,this.statuslist[4].msg);
+            }
             this.level = level;
         }
 
@@ -457,16 +469,16 @@ export class AIDevice {
             this.post = "卧睡";
             this.postimg = "卧";
         } else if ((posture >> 1 & 0x1) == 1) {
-            this.post = "右睡";
-            this.postimg = "右";
+            this.post = "左睡";
+            this.postimg = "左";
         }
         else if ((posture >> 2 & 0x1) == 1) {
             this.post = "仰睡";
             this.postimg = "仰";
         }
         else if ((posture >> 3 & 0x1) == 1) {
-            this.post = "左睡";
-            this.postimg = "左";
+            this.post = "右睡";
+            this.postimg = "右";
         }
         else if ((posture >> 4 & 0x1) == 1) {
             this.post = "| | |";
@@ -515,7 +527,7 @@ export class AIDevice {
             this.fall = "Y";
             this.notify(3, "跌落了，请赶快处理");
         } else {
-            this.fall = "N";
+            //this.fall = "N";
         }
 
     }
@@ -554,8 +566,7 @@ export class AIDevice {
                 this.localNotifications.schedule({
                     id: id,
                     text: content,
-                    vibrate: true,
-                    silent: AppBase.Setting.sound == "Y"
+                    vibrate: true
                 });
 
             }

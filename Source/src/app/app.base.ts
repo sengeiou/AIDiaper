@@ -83,6 +83,9 @@ export class AppBase{
         this.viewCtrl.dismiss(data);
     }
     nagivate(pagename,param){  
+        if(param==undefined||param==null){
+            param={};
+        }
         this.navCtrl.push(pagename,param);
     }
     modal(pageobj,param,callback=null){

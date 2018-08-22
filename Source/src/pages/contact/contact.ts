@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController,ModalController, ViewController } from 'ionic-angular';
 import {AppBase} from "../../app/app.base";
 import { StatusBar } from '@ionic-native/status-bar';
+import { ShengmingPage } from '../shengming/shengming';
 
 @Component({
   selector: 'page-contact',
@@ -36,5 +37,8 @@ export class ContactPage extends AppBase {
         this.changeTab(0,null);
       }
     });
+  }
+  gotosehngming(){
+    this.navCtrl.push(ShengmingPage);
   }
 }

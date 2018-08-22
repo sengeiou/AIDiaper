@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, ModalController, ViewController } from 'ionic-angular';
+import { NavController, ModalController, ViewController,AlertController, Alert } from 'ionic-angular';
 import { AppBase } from "../../app/app.base";
 import { StatusBar } from '@ionic-native/status-bar';
 import { LocalNotifications } from '@ionic-native/local-notifications';
@@ -28,6 +28,7 @@ export class HomePage extends AppBase {
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController
     , public statusBar: StatusBar, public viewCtrl: ViewController, private localNotifications: LocalNotifications
+    , public alertCtrl:AlertController
     , private backgroundMode: BackgroundMode
     , public ble: BLE,public recordapi:RecordApi
   ) {
@@ -109,6 +110,28 @@ export class HomePage extends AppBase {
       });
     }
 
+  }
+  handelFall(){
+    //salert(1);
+    const confirm = this.alertCtrl.create({
+      title: '摔倒处理',
+      message: '已经处理完毕？',
+      buttons: [
+        {
+          text: '否',
+          handler: () => {
+           
+          }
+        },
+        {
+          text: '是',
+          handler: () => {
+            this.aidevice.fall="N";
+          }
+        }
+      ]
+    });
+    confirm.present();
   }
 
 

@@ -13,18 +13,19 @@
         </ion-list-header>
         <ion-item>
           <ion-label>报警</ion-label>
-          <ion-select  [(ngModel)]="setting.alert" [mode]="ios"  (ionChange)="selectAlert()" cancelText="取消" okText="确认">
+          <ion-select  [(ngModel)]="setting.alert" (ionChange)="selectAlert()" cancelText="取消" okText="确认">
             <ion-option value="Y" >开</ion-option>
             <ion-option value="N"  >关</ion-option>
           </ion-select>
         </ion-item>
+        <!--
         <ion-item>
           <ion-label>声音</ion-label>
           <ion-select  [(ngModel)]="setting.sound"  (ionChange)="selectSound()" cancelText="取消" okText="确认">
             <ion-option value="Y" >开</ion-option>
             <ion-option value="N"  >关</ion-option>
           </ion-select>
-        </ion-item>
+        </ion-item>-->
         <ion-item>
           <ion-label>灵敏度</ion-label>
           <ion-select [(ngModel)]="setting.shushi"  (ionChange)="selectShushi()" cancelText="取消" okText="确认">
@@ -52,7 +53,13 @@
             <ion-option value="4">不提醒</ion-option>
           </ion-select>
         </ion-item>
-      </ion-list><button ion-button (click)="rescan(1)" class="bottombutton">
+        <ion-item (click)="gotosehngming()">
+            <ion-label>使用声明</ion-label>
+            <ion-icon name="arrow-forward" item-end></ion-icon>
+        </ion-item>
+      </ion-list>
+      
+      <button ion-button (click)="rescan(1)" class="bottombutton">
           重新扫描设备
         </button>
 

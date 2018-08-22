@@ -1,4 +1,4 @@
-import { NgModule, ErrorHandler } from '@angular/core';
+import { NgModule, ErrorHandler, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
@@ -8,6 +8,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { MallPage } from '../pages/mall/mall';
+import { ShengmingPage } from '../pages/shengming/shengming';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -20,7 +21,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import { RecordApi } from '../providers/record.api';
 import { AppUpdate } from '@ionic-native/app-update';
 
-
+enableProdMode();
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppUpdate } from '@ionic-native/app-update';
     ContactPage,
     HomePage,
     MallPage,
+    ShengmingPage,
     TabsPage
   ],
   imports: [
@@ -53,6 +55,7 @@ import { AppUpdate } from '@ionic-native/app-update';
     ContactPage,
     HomePage,
     MallPage,
+    ShengmingPage,
     TabsPage
   ],
   providers: [

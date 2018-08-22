@@ -15,7 +15,7 @@ export class AboutPage extends AppBase {
   @ViewChild('chart1') chart1: ElementRef;
   @ViewChild('chart2') chart2: ElementRef;
   @ViewChild('chart3') chart3: ElementRef;
-  currentTab = 3;
+  currentTab = 0;
 
   chart0record = [];
 
@@ -144,8 +144,8 @@ export class AboutPage extends AppBase {
           }
 
 
-          Chart.Line(this.chart1.nativeElement.getContext("2d"), {
-            type: 'line',
+          Chart.Bar(this.chart1.nativeElement.getContext("2d"), {
+            type: 'bar',
             data: {
               labels: labels,
               datasets: [{
@@ -195,7 +195,7 @@ export class AboutPage extends AppBase {
           }
 
 
-          Chart.Line(this.chart2.nativeElement.getContext("2d"), {
+          Chart.Bar(this.chart2.nativeElement.getContext("2d"), {
             type: 'bar',
             data: {
               labels: labels,
