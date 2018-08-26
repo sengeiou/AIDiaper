@@ -20,6 +20,7 @@ import { BackgroundMode } from '@ionic-native/background-mode';
 import { IonicStorageModule } from '@ionic/storage';
 import { RecordApi } from '../providers/record.api';
 import { AppUpdate } from '@ionic-native/app-update';
+import { SQLite } from '@ionic-native/sqlite';
 
 enableProdMode();
 
@@ -66,6 +67,7 @@ enableProdMode();
     BackgroundMode,
     RecordApi,
     AppUpdate,
+    SQLite,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

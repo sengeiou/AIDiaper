@@ -7,6 +7,8 @@ import { BackgroundMode } from '@ionic-native/background-mode';
 import { BLE } from '@ionic-native/ble';
 import { AIDevice } from './aidevice';
 import { RecordApi } from '../../providers/record.api';
+import { DataMgr } from './datamgr';
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 
 @Component({
   selector: 'page-home',
@@ -30,11 +32,11 @@ export class HomePage extends AppBase {
     , public statusBar: StatusBar, public viewCtrl: ViewController, private localNotifications: LocalNotifications
     , public alertCtrl:AlertController
     , private backgroundMode: BackgroundMode
-    , public ble: BLE,public recordapi:RecordApi
+    , public ble: BLE,public db:SQLite
   ) {
     super(navCtrl, modalCtrl, viewCtrl, statusBar);
 
-    this.aidevice.recordapi=recordapi;
+    this.aidevice.db=new DataMgr(db);
   }
 
   onMyShow() {

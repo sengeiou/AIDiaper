@@ -3,12 +3,12 @@ import { NavController, ModalController, ViewController } from 'ionic-angular';
 import { AppBase } from "../../app/app.base";
 import { StatusBar } from '@ionic-native/status-bar';
 import Chart from 'chart.js';
-import { RecordApi } from '../../providers/record.api';
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
+import { DataMgr } from '../home/datamgr';
 
 @Component({
   selector: 'page-about',
-  templateUrl: 'about.html',
-  providers: [RecordApi]
+  templateUrl: 'about.html'
 })
 export class AboutPage extends AppBase {
   @ViewChild('chart0') chart0: ElementRef;
@@ -29,12 +29,14 @@ export class AboutPage extends AppBase {
   dt3 = [];
   ds3 = 1;
   selectdeviceid = "";
+  dbmgr:DataMgr=null;
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController
     , public statusBar: StatusBar, public viewCtrl: ViewController
-    , public recordapi: RecordApi
+    , public db:SQLite
   ) {
     super(navCtrl, modalCtrl, viewCtrl, statusBar);
+    this.dbmgr=new DataMgr(db);
   }
 
   onMyShow() {
@@ -42,17 +44,17 @@ export class AboutPage extends AppBase {
     this.daterange = [];
     var today = new Date();
 
-    this.daterange.push({ datetext: "当日", from: this.util.FormatDate(today), to: this.util.FormatDate(today) });
-    this.daterange.push({ datetext: "近7日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 7)), to: this.util.FormatDate(today) });
-    this.daterange.push({ datetext: "近14日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 14)), to: this.util.FormatDate(today) });
-    this.daterange.push({ datetext: "近30日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 30)), to: this.util.FormatDate(today) });
+    this.daterange.push({ datetext: "当日", from: this.util.FormatDate(today), to: this.util.FormatDate(today),fromtime:today.getTime(),totime:today.getTime() });
+    this.daterange.push({ datetext: "近7日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 7)), to: this.util.FormatDate(today),fromtime:today.getTime()- 24 * 3600 * 1000 * 7,totime:today.getTime() });
+    this.daterange.push({ datetext: "近14日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 14)), to: this.util.FormatDate(today),fromtime:today.getTime()- 24 * 3600 * 1000 * 14,totime:today.getTime() });
+    this.daterange.push({ datetext: "近30日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 30)), to: this.util.FormatDate(today),fromtime:today.getTime()- 24 * 3600 * 1000 * 30,totime:today.getTime() });
 
 
     try {
       AppBase.Storage.get("selectdeviceid").then((id) => {
         this.selectdeviceid = id;
         //alert(id);
-        this.selectdeviceid = "aaa-cc-ccc-aaa";
+        //this.selectdeviceid = "aaa-cc-ccc-aaa";
         that.loaddata();
       });
     } catch (ex) {
@@ -68,7 +70,7 @@ export class AboutPage extends AppBase {
     if (this.currentTab == 0) {
       //alert(this.daterange[this.ds0].to);
       //alert(JSON.stringify({mac:this.selectdeviceid,from:this.daterange[this.ds0].from,to:this.daterange[this.ds0].to}));
-      this.recordapi.wetting({ mac: this.selectdeviceid, from: this.daterange[this.ds0].from, to: this.daterange[this.ds0].to })
+      this.dbmgr.getWetRecord(this.selectdeviceid, this.daterange[this.ds0].from, this.daterange[this.ds0].fromtime,  this.daterange[this.ds0].to,  this.daterange[this.ds0].totime)
         .then((ret) => {
           this.dt0 = ret;
           var labels = [];
@@ -129,7 +131,7 @@ export class AboutPage extends AppBase {
 
       //alert(this.daterange[this.ds0].to);
       //alert(JSON.stringify({mac:this.selectdeviceid,from:this.daterange[this.ds0].from,to:this.daterange[this.ds0].to}));
-      this.recordapi.falling({ mac: this.selectdeviceid, from: this.daterange[this.ds1].from, to: this.daterange[this.ds1].to })
+      this.dbmgr.getFallRecord(this.selectdeviceid, this.daterange[this.ds1].from, this.daterange[this.ds1].fromtime,  this.daterange[this.ds1].to,  this.daterange[this.ds1].totime)
         .then((ret) => {
           this.dt1 = ret;
           var labels = [];
@@ -179,7 +181,7 @@ export class AboutPage extends AppBase {
 
       //alert(this.daterange[this.ds0].to);
       //alert(JSON.stringify({mac:this.selectdeviceid,from:this.daterange[this.ds0].from,to:this.daterange[this.ds0].to}));
-      this.recordapi.wetting({ mac: this.selectdeviceid, from: this.daterange[this.ds2].from, to: this.daterange[this.ds2].to })
+      this.dbmgr.getWetRecord(this.selectdeviceid, this.daterange[this.ds2].from, this.daterange[this.ds2].fromtime,  this.daterange[this.ds2].to,  this.daterange[this.ds2].totime)
         .then((ret) => {
           this.dt2 = ret;
           var labels = [];
@@ -230,7 +232,7 @@ export class AboutPage extends AppBase {
 
       //alert(this.daterange[this.ds0].to);
       //alert(JSON.stringify({mac:this.selectdeviceid,from:this.daterange[this.ds0].from,to:this.daterange[this.ds0].to}));
-      this.recordapi.wetting({ mac: this.selectdeviceid, from: this.daterange[this.ds3].from, to: this.daterange[this.ds3].to })
+      this.dbmgr.getWetRecord(this.selectdeviceid, this.daterange[this.ds3].from, this.daterange[this.ds3].fromtime,  this.daterange[this.ds3].to,  this.daterange[this.ds3].totime)
         .then((ret) => {
           this.dt3 = ret;
           var labels = [];

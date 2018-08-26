@@ -1,11 +1,12 @@
 import { AppBase } from "../../app/app.base";
 import { DateTime } from "../../../node_modules/ionic-angular/umd";
 import { LocalNotifications } from '@ionic-native/local-notifications';
-import { RecordApi } from "../../providers/record.api";
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
+import { DataMgr } from "./datamgr";
 
 export class AIDevice {
     deviceid = "";
-    recordapi: RecordApi = null;
+    db: DataMgr = null;
 
     advertising: String = "";
     isclick = false;
@@ -139,9 +140,10 @@ export class AIDevice {
 
             this.getWetness();
             if (this.isclick == true) {
-               // this.recordapi.update({ mac: this.deviceid, op: "O", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
-              //      console.log(ret);
-               // });
+                //this.recordapi.update({ mac: this.deviceid, op: "O", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
+                //    console.log(ret);
+                //});
+                this.db.addWetRecord(this.deviceid,3,this.ml);
             }
             this.isclick = false;
             this.lasttimespan = 0;
@@ -157,6 +159,8 @@ export class AIDevice {
                // this.recordapi.update({ mac: this.deviceid, op: "C", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
                 //    console.log(ret);
                 //});
+
+                this.db.addWetRecord(this.deviceid,1,this.ml);
             }
 
             this.getSensetive();
@@ -422,9 +426,11 @@ export class AIDevice {
         }
         if (level > this.level) {
             if(level==1){
+                this.db.addWetRecord(this.deviceid,2,this.ml);
                 this.notify(12,this.statuslist[1].msg);
             }
             if(level==4){
+                this.db.addWetRecord(this.deviceid,2,this.ml);
                 this.notify(14,this.statuslist[4].msg);
             }
             this.level = level;
@@ -433,6 +439,7 @@ export class AIDevice {
         //this.recordapi.update({ mac: this.deviceid, op: "N", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
         //    console.log(ret);
         //});
+
     }
 
     setWetml(a, v, c) {
@@ -524,6 +531,9 @@ export class AIDevice {
     checkFall() {
         var posture = this.mData[5];
         if ((posture >> 7 & 0x1) == 1) {   //fall
+            if(this.fall!='Y'){
+                this.db.addWetRecord(this.deviceid,4,this.ml);
+            }
             this.fall = "Y";
             this.notify(3, "跌落了，请赶快处理");
         } else {
