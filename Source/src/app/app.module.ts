@@ -22,6 +22,8 @@ import { RecordApi } from '../providers/record.api';
 import { AppUpdate } from '@ionic-native/app-update';
 import { SQLite } from '@ionic-native/sqlite';
 
+import { NativeAudio } from '@ionic-native/native-audio';
+
 enableProdMode();
 
 @NgModule({
@@ -68,6 +70,7 @@ enableProdMode();
     RecordApi,
     AppUpdate,
     SQLite,
+    NativeAudio,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

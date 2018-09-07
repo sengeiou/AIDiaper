@@ -4,6 +4,8 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
 import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { DataMgr } from "./datamgr";
 
+import { NativeAudio } from '@ionic-native/native-audio';
+
 export class AIDevice {
     deviceid = "";
     db: DataMgr = null;
@@ -28,7 +30,7 @@ export class AIDevice {
     orangeV = 22;//橙色触发值
 
 
-    no="";
+    no = "";
     wetml = "0ml";
     ml = 0;
     wetval = "--";
@@ -37,7 +39,7 @@ export class AIDevice {
 
     statuslist = [];
     disconnectstatus = { color: "#fcfcfc", name: "断开", idx: "", msg: "目前无法获得设备信息" };
-    unclickstatus = { color: "#fcfcfc", name: "打开", idx: "", msg: "夹子打开了，请更换尿布" };
+    unclickstatus = { color: "#fcfcfc", name: "打开", idx: "", msg: "夹子打开了，请更换纸尿裤" };
     currentstatus = { color: "#fcfcfc", name: "断开", idx: "" };
 
     temperature = "--";
@@ -60,8 +62,8 @@ export class AIDevice {
         this.statuslist.push({ color: "rgb(66,187,55)", name: "舒适", msg: "目前感觉非常舒适", v: 100, wet: 0 });
         this.statuslist.push({ color: "rgb(107,251,13)", name: "干爽", msg: "目前状态良好", v: 75, wet: 1 });
         this.statuslist.push({ color: "rgb(255,255,11)", name: "适中", msg: "目前状态适中", v: 50, wet: 2 });
-        this.statuslist.push({ color: "rgb(253,166,10)", name: "微潮", msg: "尿布状态已经微湿，请立即更换", v: 25, wet: 3 });
-        this.statuslist.push({ color: "rgb(250,0,63)", name: "潮湿", msg: "尿布状态已经不舒服，请立即更换", v: 0, wet: 4 });
+        this.statuslist.push({ color: "rgb(253,166,10)", name: "微潮", msg: "纸尿裤状态已经微湿，请立即更换", v: 25, wet: 3 });
+        this.statuslist.push({ color: "rgb(250,0,63)", name: "潮湿", msg: "纸尿裤状态已经不舒服，请立即更换", v: 0, wet: 4 });
 
         this.currentstatus = this.disconnectstatus;
         this.lastupdatetime = (new Date).getTime() / 1000;
@@ -74,11 +76,15 @@ export class AIDevice {
             this.timerFunc();
         }, 1000);
     }
+    sendunconnect = false;
     timerFunc() {
         var nowtime = (new Date()).getTime() / 1000;
         if (nowtime - this.lastupdatetime > 10 * 60) {
             this.cleardata();
-            this.notify(4, "已断开连接");
+            if (this.sendunconnect == false) {
+                this.sendunconnect = true;
+                this.notify(4, "已断开连接");
+            }
         }
         if (this.lasttimespan > 0) {
             var ts = parseInt((nowtime - this.lasttimespan).toFixed());
@@ -98,13 +104,14 @@ export class AIDevice {
 
     reloaddata(deviceid, datastr: String) {
         this.deviceid = deviceid;
-        try{
-            var devcut=this.deviceid.split(":");
-            this.no=devcut[devcut.length-1];
-        }catch(e){
-            this.no="";
+        try {
+            var devcut = this.deviceid.split(":");
+            this.no = devcut[devcut.length - 1];
+        } catch (e) {
+            this.no = "";
         }
         this.lastupdatetime = (new Date).getTime() / 1000;
+
         this.advertising = datastr;
         this.scanRecord = datastr.split(",");
         this.setVersion();
@@ -133,7 +140,7 @@ export class AIDevice {
         this.angleData[1] = this.scanRecord[mdataPosition - 2];
         this.angleData[2] = this.scanRecord[mdataPosition - 1];
 
-
+        //this.notify(0,"ceshi");
 
         if (this.mData[0] == 0x00 || this.mData[14] == 0x00) {
             //alert("??dakai");
@@ -143,26 +150,26 @@ export class AIDevice {
                 //this.recordapi.update({ mac: this.deviceid, op: "O", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
                 //    console.log(ret);
                 //});
-                this.db.addWetRecord(this.deviceid,3,this.ml);
+                this.db.addWetRecord(this.deviceid, 3, this.ml);
             }
             this.isclick = false;
             this.lasttimespan = 0;
             this.cleardata();
             this.currentstatus = this.unclickstatus;
         } else {
-
             this.getWetness();
             if (this.isclick == false) {
                 this.isclick = true;
                 this.lasttimespan = (new Date()).getTime() / 1000;
 
-               // this.recordapi.update({ mac: this.deviceid, op: "C", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
+                // this.recordapi.update({ mac: this.deviceid, op: "C", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
                 //    console.log(ret);
                 //});
 
-                this.db.addWetRecord(this.deviceid,1,this.ml);
+                this.db.addWetRecord(this.deviceid, 1, this.ml);
             }
 
+            this.sendunconnect = false;
             this.getSensetive();
 
             this.getTemperature();
@@ -330,7 +337,7 @@ export class AIDevice {
 
         var mytempfact = 40;
         var storedRawC = c;
-        
+
 
 
         if (this.displayC > c)//每测到一个信号，把C做处理后再发送。记得打开夹子时displayC=530恢复原值
@@ -425,13 +432,13 @@ export class AIDevice {
             this.notify(15, this.statuslist[4].msg);
         }
         if (level > this.level) {
-            if(level==1){
-                this.db.addWetRecord(this.deviceid,2,this.ml);
-                this.notify(12,this.statuslist[1].msg);
+            if (level == 1) {
+                this.db.addWetRecord(this.deviceid, 2, this.ml);
+                this.notify(12, this.statuslist[1].msg);
             }
-            if(level==4){
-                this.db.addWetRecord(this.deviceid,2,this.ml);
-                this.notify(14,this.statuslist[4].msg);
+            if (level == 4) {
+                this.db.addWetRecord(this.deviceid, 2, this.ml);
+                this.notify(14, this.statuslist[4].msg);
             }
             this.level = level;
         }
@@ -510,19 +517,21 @@ export class AIDevice {
         } else {
             this.nomovetime = (ts / 3600).toFixed() + "小时";
         }
+        var fanshentips = "翻身时间到了，请即使护理，谢谢！";
+        var hoursecond=3600;
         if (AppBase.Setting.fanshen == "1") {
-            if (ts > 1 * 3600) {
-                this.notify(5, "已经有超过" + this.nomovetime + "没有调整睡姿了。")
+            if (ts > 1 * hoursecond) {
+                this.notify(5, fanshentips)
             }
         }
         if (AppBase.Setting.fanshen == "2") {
-            if (ts > 2 * 3600) {
-                this.notify(5, "已经有超过" + this.nomovetime + "没有调整睡姿了。")
+            if (ts > 2 * hoursecond) {
+                this.notify(5, fanshentips)
             }
         }
         if (AppBase.Setting.fanshen == "3") {
-            if (ts > 3 * 3600) {
-                this.notify(5, "已经有超过" + this.nomovetime + "没有调整睡姿了。")
+            if (ts > 3 * hoursecond) {
+                this.notify(5, fanshentips)
             }
         }
 
@@ -531,8 +540,8 @@ export class AIDevice {
     checkFall() {
         var posture = this.mData[5];
         if ((posture >> 7 & 0x1) == 1) {   //fall
-            if(this.fall!='Y'){
-                this.db.addWetRecord(this.deviceid,4,this.ml);
+            if (this.fall != 'Y') {
+                this.db.addWetRecord(this.deviceid, 4, this.ml);
             }
             this.fall = "Y";
             this.notify(3, "跌落了，请赶快处理");
@@ -555,29 +564,70 @@ export class AIDevice {
         this.postimg = "";
         this.nomovetime = "--";
         this.usetime = "--";
-        this.displayC=530;
+        this.displayC = 530;
     }
     localNotifications: LocalNotifications = null;
+    nativeAudio: NativeAudio = null;
     notifylist = [];
     setNotification(localNotifications: LocalNotifications) {
         this.localNotifications = localNotifications;
     }
+    setNativeAudio(nativeAudio: NativeAudio) {
+        this.nativeAudio = nativeAudio;
+    }
     notify(type, content: string) {
-        if (AppBase.Setting.alert != "N") {
+        if (AppBase.Setting.alert != "Y") {
             return;
         }
         var time = new Date();
         var ida = type.toString() + time.getFullYear().toString() + time.getMonth().toString() + time.getDate().toString()
-            + time.getHours().toString() + time.getMinutes().toString();
+            + time.getHours().toString() + (time.getMinutes()/10).toString();
         var id = parseInt(ida);
         if (this.notifylist[id] == undefined) {
-
             if (AppBase.IsMobileWeb == false) {
-                this.localNotifications.schedule({
-                    id: id,
-                    text: content,
-                    vibrate: true
-                });
+
+                try {
+                    if (type == 3) {
+                        this.nativeAudio.play("fall");
+
+                        this.localNotifications.schedule({
+                            id: id,
+                            text: content,
+                            vibrate: true,
+                            sound: "nosound"
+                        });
+                    }
+                    else if (type == 5) {
+                        this.nativeAudio.play("fanshen");
+
+                        this.localNotifications.schedule({
+                            id: id,
+                            text: content,
+                            vibrate: true,
+                            sound: "nosound"
+                        });
+                    } else if (type == 4) {
+
+                        this.localNotifications.schedule({
+                            id: id,
+                            text: content,
+                            vibrate: true
+                        });
+                    } else {
+
+                        this.nativeAudio.play("wet");
+                        this.localNotifications.schedule({
+                            id: id,
+                            text: content,
+                            vibrate: true,
+                            sound: "nosound"
+                        });
+                    }
+                } catch (e) {
+
+                }
+
+
 
             }
             this.notifylist[id] = 1;

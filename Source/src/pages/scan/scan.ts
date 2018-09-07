@@ -8,7 +8,7 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
 import { ViewChild } from '@angular/core';
 import { Slides } from 'ionic-angular';
 import { BLE } from '@ionic-native/ble';
-
+import { NativeAudio } from '@ionic-native/native-audio';
 /**
  * Generated class for the ScanPage page.
  *
@@ -27,11 +27,20 @@ export class ScanPage  extends AppBase {
   selectdeviceid="";
   constructor(public navCtrl: NavController,public modalCtrl:ModalController 
     , public statusBar : StatusBar,public viewCtrl:ViewController,private localNotifications: LocalNotifications
-    ,private ble: BLE
+    ,private ble: BLE,public nativeAudio:NativeAudio
   ) {
     super(navCtrl,modalCtrl,viewCtrl,statusBar);
   }
+  callnotify(){
   
+
+   // this.nativeAudio.play('fall');
+
+    // this.localNotifications.schedule({
+    //   text: "测试铃声",
+    //   vibrate: true
+    // }); 
+  }
   onMyShow(){
 
     if(AppBase.IsMobileWeb){

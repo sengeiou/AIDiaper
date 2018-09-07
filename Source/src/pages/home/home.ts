@@ -10,6 +10,8 @@ import { RecordApi } from '../../providers/record.api';
 import { DataMgr } from './datamgr';
 import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 
+import { NativeAudio } from '@ionic-native/native-audio';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
@@ -32,17 +34,23 @@ export class HomePage extends AppBase {
     , public statusBar: StatusBar, public viewCtrl: ViewController, private localNotifications: LocalNotifications
     , public alertCtrl:AlertController
     , private backgroundMode: BackgroundMode
-    , public ble: BLE,public db:SQLite
+    , public ble: BLE,public db:SQLite,public nativeAudio:NativeAudio
   ) {
     super(navCtrl, modalCtrl, viewCtrl, statusBar);
 
     this.aidevice.db=new DataMgr(db);
   }
+  onMyLoad(){
 
+    this.nativeAudio.preloadSimple('fall', 'assets/ring/fall.mp3');
+    this.nativeAudio.preloadSimple('wet', 'assets/ring/wet.mp3');
+    this.nativeAudio.preloadSimple('fanshen', 'assets/ring/fanshen.mp3');
+  }
   onMyShow() {
     var that = this;
     this.aidevice.startTime();
     this.aidevice.setNotification(this.localNotifications);
+    this.aidevice.setNativeAudio(this.nativeAudio);
     if(this.selectdeviceid==""){
       this.modal("ScanPage",{},(selectdevice)=>{
         //alert(selectdevice);
