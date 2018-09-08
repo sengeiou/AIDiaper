@@ -150,7 +150,7 @@ export class AIDevice {
                 //this.recordapi.update({ mac: this.deviceid, op: "O", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
                 //    console.log(ret);
                 //});
-                this.db.addWetRecord(this.deviceid, 3, this.ml);
+                this.db.addWetRecord(this.deviceid, 1, this.ml);
             }
             this.isclick = false;
             this.lasttimespan = 0;

@@ -33,109 +33,112 @@
           <div class="h5 txt-gray flex-1">暂无记录</div>
         </div>
         <div class="margin-top border-bottom " style="padding-bottom:5px;" *ngFor="let sta of item.val;let j=index;">
-          <div class="flex-row flex-center margin-top">
-            <div class="h5 txt-gray flex-1">时间</div>
-            <div class="h5 txt-gray flex-1">状态</div>
-            <div class="h5 txt-gray flex-1">尿量</div>
-          </div>
-          <div class="flex-row flex-center margin-top-10" *ngFor="let sub of sta;let k=index;">
-            <div class="h5 txt-gray flex-1">{{sub.record_time_formatting}}</div>
-            <div class="h5 txt-gray flex-1">{{k==0?"开始尿湿":""}} {{k>0&&k
-              <sta.length-1? "尿湿提示": ""}} {{k==sta.length-1? "更换尿裤": ""}}</div>
-                <div class="h5 txt-gray flex-1">{{sub.ml}}ml</div>
+          <div *ngIf="sta!=null&&sta.length>1">
+            <div class="flex-row flex-center margin-top">
+              <div class="h5 txt-gray flex-1">时间</div>
+              <div class="h5 txt-gray flex-1">状态</div>
+              <div class="h5 txt-gray flex-1">尿量</div>
+            </div>
+
+            <div class="flex-row flex-center margin-top-10" *ngFor="let sub of sta;let k=index;">
+              <div class="h5 txt-gray flex-1">{{sub.record_time_formatting}}</div>
+              <div class="h5 txt-gray flex-1">{{k==0?"开始尿湿":""}} {{k>0&&k<sta.length-1? "尿湿提示" : "" }}
+                  {{k==sta.length-1? "更换尿裤": ""}} </div> <div class="h5 txt-gray flex-1">{{sub.ml}}ml</div>
             </div>
 
           </div>
+        </div>
 
 
+      </div>
+    </div>
+  </div>
+  <div [class.hide]='currentTab!=1' class="white-block padding  pagetab">
+    <div class="flex-row flex-center margin-top">
+      <div class="h6 txt-gray">日期范围</div>
+      <div *ngFor="let item of daterange;let l=index;">
+        <span class="h6 ds" [class.dsselect]='l==ds1' (click)="ds1=l;loaddata();">{{item.datetext}}</span>
+      </div>
+    </div>
+    <div class="margin-top">
+      <canvas #chart1 height="200"></canvas>
+    </div>
+    <div class="h4 padding-20 margin-top">
+      数据详情
+    </div>
+    <div class="padding-40">
+      <div class="flex-row flex-center">
+        <div class="h5 txt-gray flex-1 text-center">发生跌落日期</div>
+        <div class="h5 txt-gray flex-1 text-center">发生跌落次数</div>
+      </div>
+      <div class="flex-row  margin-top-10" *ngFor="let item of dt1;let l=index;">
+        <div class="h5 txt-gray flex-1 text-center">{{item.date}}</div>
+        <div class="h5 txt-gray flex-1 text-center">
+          <div [class.txt-primary]="item.val.length>0" (click)="item.show=(item.show==true?false:true)">{{item.val.length}}</div>
+          <div *ngIf="item.show==true">
+            <div class="txt-gray h6" *ngFor="let sub of item.val;let k=index;">{{sub.record_time_formatting}}</div>
+          </div>
         </div>
       </div>
     </div>
-    <div [class.hide]='currentTab!=1' class="white-block padding  pagetab">
-      <div class="flex-row flex-center margin-top">
-        <div class="h6 txt-gray">日期范围</div>
-        <div *ngFor="let item of daterange;let l=index;">
-          <span class="h6 ds" [class.dsselect]='l==ds1' (click)="ds1=l;loaddata();">{{item.datetext}}</span>
-        </div>
+  </div>
+  <div [class.hide]='currentTab!=2' class="white-block padding  pagetab">
+    <div class="flex-row flex-center margin-top">
+      <div class="h6 txt-gray">日期范围</div>
+      <div *ngFor="let item of daterange;let l=index;">
+        <span class="h6 ds" [class.dsselect]='l==ds2' (click)="ds2=l;loaddata();">{{item.datetext}}</span>
       </div>
-      <div class="margin-top">
-        <canvas #chart1 height="200"></canvas>
+    </div>
+    <div class="margin-top">
+      <canvas #chart2 height="200"></canvas>
+    </div>
+    <div class="h4 padding-20 margin-top">
+      数据详情
+    </div>
+    <div class="padding-40">
+      <div class="flex-row flex-center">
+        <div class="h5 txt-gray flex-1 text-center">日期</div>
+        <div class="h5 txt-gray flex-1 text-center">用品次数</div>
       </div>
-      <div class="h4 padding-20 margin-top">
-        数据详情
-      </div>
-      <div class="padding-40">
-        <div class="flex-row flex-center">
-          <div class="h5 txt-gray flex-1 text-center">发生跌落日期</div>
-          <div class="h5 txt-gray flex-1 text-center">发生跌落次数</div>
-        </div>
-        <div class="flex-row  margin-top-10" *ngFor="let item of dt1;let l=index;">
-          <div class="h5 txt-gray flex-1 text-center">{{item.date}}</div>
-          <div class="h5 txt-gray flex-1 text-center">
-            <div [class.txt-primary]="item.val.length>0" (click)="item.show=(item.show==true?false:true)">{{item.val.length}}</div>
-            <div *ngIf="item.show==true">
-              <div class="txt-gray h6" *ngFor="let sub of item.val;let k=index;">{{sub.record_time_formatting}}</div>
-            </div>
+      <div class="flex-row margin-top-10" *ngFor="let item of dt2;let l=index;">
+        <div class="h5 txt-gray flex-1 text-center">{{item.date}}</div>
+        <div class="h5 txt-gray flex-1 text-center">
+          <div [class.txt-primary]="item.val.length>0" (click)="item.show=(item.show==true?false:true)">{{item.val.length}}</div>
+          <div *ngIf="item.show==true">
+            <div class="txt-gray h6" *ngFor="let sub of item.val;let k=index;">{{sub[sub.length-1].record_time_formatting}}</div>
           </div>
         </div>
       </div>
     </div>
-    <div [class.hide]='currentTab!=2' class="white-block padding  pagetab">
-        <div class="flex-row flex-center margin-top">
-            <div class="h6 txt-gray">日期范围</div>
-            <div *ngFor="let item of daterange;let l=index;">
-              <span class="h6 ds" [class.dsselect]='l==ds2' (click)="ds2=l;loaddata();">{{item.datetext}}</span>
-            </div>
-          </div>
-          <div class="margin-top">
-            <canvas #chart2 height="200"></canvas>
-          </div>
-          <div class="h4 padding-20 margin-top">
-            数据详情
-          </div>
-          <div class="padding-40">
-            <div class="flex-row flex-center">
-              <div class="h5 txt-gray flex-1 text-center">日期</div>
-              <div class="h5 txt-gray flex-1 text-center">用品次数</div>
-            </div>
-            <div class="flex-row margin-top-10" *ngFor="let item of dt2;let l=index;">
-              <div class="h5 txt-gray flex-1 text-center">{{item.date}}</div>
-              <div class="h5 txt-gray flex-1 text-center">
-                <div [class.txt-primary]="item.val.length>0" (click)="item.show=(item.show==true?false:true)">{{item.val.length}}</div>
-                <div *ngIf="item.show==true">
-                  <div class="txt-gray h6" *ngFor="let sub of item.val;let k=index;">{{sub[sub.length-1].record_time_formatting}}</div>
-                </div>
-              </div>
-            </div>
-          </div>
+  </div>
+  <div [class.hide]='currentTab!=3' class="white-block padding  pagetab">
+    <div class="flex-row flex-center margin-top">
+      <div class="h6 txt-gray">日期范围</div>
+      <div *ngFor="let item of daterange;let l=index;">
+        <span class="h6 ds" [class.dsselect]='l==ds3' (click)="ds3=l;loaddata();">{{item.datetext}}</span>
+      </div>
     </div>
-    <div [class.hide]='currentTab!=3' class="white-block padding  pagetab">
-        <div class="flex-row flex-center margin-top">
-            <div class="h6 txt-gray">日期范围</div>
-            <div *ngFor="let item of daterange;let l=index;">
-              <span class="h6 ds" [class.dsselect]='l==ds3' (click)="ds3=l;loaddata();">{{item.datetext}}</span>
-            </div>
-          </div>
-          <div class="margin-top">
-            <canvas #chart3 height="200"></canvas>
-          </div>
-          <div class="h4 padding-20 margin-top">
-            数据详情
-          </div>
-          <div class="padding-40">
-            <div class="flex-row flex-center">
-              <div class="h5 txt-gray flex-1 text-center">日期</div>
-              <div class="h5 txt-gray flex-1 text-center">尿量</div>
-            </div>
-            <div class="flex-row margin-top-10" *ngFor="let item of dt3;let l=index;">
-              <div class="h5 txt-gray flex-1 text-center">{{item.date}}</div>
-              <div class="h5 txt-gray flex-1 text-center">
-                <div [class.txt-primary]="item.ml>0" (click)="item.show=(item.show==true?false:true)">{{item.ml}}ml</div>
-                <div *ngIf="item.show==true">
-                  <div class="txt-gray h6" *ngFor="let sub of item.val;let k=index;">{{sub[sub.length-1].record_time_formatting}} {{sub[sub.length-1].ml}}ml</div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="margin-top">
+      <canvas #chart3 height="200"></canvas>
     </div>
+    <div class="h4 padding-20 margin-top">
+      数据详情
+    </div>
+    <div class="padding-40">
+      <div class="flex-row flex-center">
+        <div class="h5 txt-gray flex-1 text-center">日期</div>
+        <div class="h5 txt-gray flex-1 text-center">尿量</div>
+      </div>
+      <div class="flex-row margin-top-10" *ngFor="let item of dt3;let l=index;">
+        <div class="h5 txt-gray flex-1 text-center">{{item.date}}</div>
+        <div class="h5 txt-gray flex-1 text-center">
+          <div [class.txt-primary]="item.ml>0" (click)="item.show=(item.show==true?false:true)">{{item.ml}}ml</div>
+          <div *ngIf="item.show==true">
+            <div class="txt-gray h6" *ngFor="let sub of item.val;let k=index;">{{sub[sub.length-1].record_time_formatting}}
+              {{sub[sub.length-1].ml}}ml</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </ion-content>

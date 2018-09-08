@@ -35,7 +35,7 @@ export class DataMgr {
         var todaystr=AppUtil.FormatDate(today);
         var nottime=AppUtil.FormatDateTime(new Date());
         this.dbmgr.executeSql("select * from wetrecord where op='1' and record_date=? ",[todaystr]).then((ret)=>{
-            if(ret.rows.length==0){
+            if(ret.rows.length==0&&op!=4&&op!=1){
                 var yesterdaystr=AppUtil.FormatDate(new Date(today.getTime()-24*3600*1000));
                 param=[mac,nottime,op,ml,yesterdaystr];
             }else{
@@ -50,15 +50,16 @@ export class DataMgr {
         if(this.dbmgr==null){
             return;   
         }
+        
         var fromstr=from+" 0:0:0";
         var tostr=to+" 23:59:59";
 
-        var sql=" select mac,record_time,record_date,op,ml from wetrecord where mac=? and ?<=record_date and record_date<=? and op in ('1','2','3') order by op, record_time ";
+        var sql=" select mac,record_time,record_date,op,ml from wetrecord where mac='"+mac+"' and '"+from+"'<record_date and record_date<='"+to+"' and op in ('1','2','3') order by record_time ";
         
-        return this.dbmgr.executeSql(sql,[mac,fromstr,tostr]).then((data)=>{
+        return this.dbmgr.executeSql(sql,[]).then((data)=>{
             
             var ret=[];
-            for(var y=0;y<(totime-fromtime)/24/3600/1000;y++){
+            for(var y=0;y<=(totime-fromtime)/24/3600/1000;y++){
                 var date=AppUtil.FormatDate(new Date(fromtime+y*24*3600*1000));
                 var cursor=-1;
                 var r={date:date,val:[]};
@@ -106,13 +107,13 @@ export class DataMgr {
         var fromstr=from+" 0:0:0";
         var tostr=to+" 23:59:59";
 
-        var sql=" select mac,record_time,record_date,op,ml from wetrecord where mac=? and ?<=record_date and record_date<=? and op in ('4') order by op, record_time ";
+        var sql=" select mac,record_time,record_date,op,ml from wetrecord where mac=? and ?<record_date and record_date<=? and op in ('4') order by  record_time ";
         
-        return this.dbmgr.executeSql(sql,[mac,fromstr,tostr]).then((data)=>{
+        return this.dbmgr.executeSql(sql,[mac,from,to]).then((data)=>{
             
             
             var ret=[];
-            for(var y=0;y<(totime-fromtime)/24/3600/1000;y++){
+            for(var y=0;y<=(totime-fromtime)/24/3600/1000;y++){
                 var date=AppUtil.FormatDate(new Date(fromtime+y*24*3600*1000));
                 var cursor=-1;
                 var r={date:date,val:[]};

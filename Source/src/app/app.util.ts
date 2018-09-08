@@ -59,7 +59,22 @@ export class AppUtil {
         return val.getFullYear() + "-" + (val.getMonth() + 1) + "-" + val.getDate();
     }
 
-    
+    public static DateTimeStrToDate(datetimestr:string){
+        var s1=datetimestr.split(" ");
+        var datestr=s1[0];
+        var timestr=s1[1];
+        var date=datestr.split("-");
+        var time=timestr.split(":");
+        var year=parseInt(date[0]);
+        var month=parseInt(date[1]);
+        var day=parseInt(date[2]);
+
+        var hour=parseInt(time[0]);
+        var minute=parseInt(time[1]);
+        var second=parseInt(time[2]);
+
+        return new Date(year,month-1,day,hour,minute,second);
+    }
 
     public static MiddleToast(toastCtrl: ToastController, msg) {
         let toast = toastCtrl.create({
