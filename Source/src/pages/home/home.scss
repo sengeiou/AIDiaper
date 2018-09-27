@@ -18,7 +18,6 @@ page-home {
         width: px(70);
     }
     .shuxian{
-
         height: px(50);
         width: 2px;
         background: #dcdcdc;
@@ -33,9 +32,53 @@ page-home {
         height: px(60);
     }
     .battery{
-        width:px(30);
+        width:px(37);
+        height:px(20);
+        background-size: 100% 100%;
+        
+    }
+    .bt{
+        width:px(37);
+        height:px(20);
+        background-size: 100% 100%;
+        
+    }
+    .b3{
+        background-image:url(/assets/res/battery_3.png);
+    }
+    .b2{
+        background-image:url(/assets/res/battery_2.png);
+    }
+    .b1{
+        background-image:url(/assets/res/battery_1.png);
     }
     .falling{
         background: #d00000;
     }
+
+    @-webkit-keyframes redchange{
+        0% {
+            background-image:url(/assets/res/battery_10.png);
+        }
+        24% {
+            background-image:url(/assets/res/battery_10.png);
+        }
+
+        25% {
+            background-image:url(/assets/res/battery_s.png);
+        }
+        75% {
+            background-image:url(/assets/res/battery_s.png);
+        }
+        76% {
+            background-image:url(/assets/res/battery_10.png);
+        }
+        100% {
+            background-image:url(/assets/res/battery_10.png);
+        }
+      }
+       
+      .bs {
+          -webkit-animation: redchange 2s infinite ; 
+      }
 }

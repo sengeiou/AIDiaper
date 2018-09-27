@@ -1,6 +1,6 @@
-<ion-tabs>
-    <ion-tab [root]="tab1Root" tabTitle="首页" tabIcon="home" ></ion-tab>
-    <ion-tab [root]="tab2Root" tabTitle="历史记录" tabIcon="stats"></ion-tab>
-  <ion-tab [root]="tab4Root" tabTitle="商城" tabIcon="cart" ></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="设置" tabIcon="settings" ></ion-tab>
+<ion-tabs (ionChange)="reloadlang()" >
+    <ion-tab [root]="tab1Root" tabTitle="&nbsp;{{Lang.home}}&nbsp;" tabIcon="home"  ></ion-tab>
+    <ion-tab [root]="tab2Root" tabTitle="&nbsp;{{Lang.history}}&nbsp;" tabIcon="stats" ></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="&nbsp;{{Lang.mall}}&nbsp;" tabIcon="cart"  ></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="&nbsp;{{Lang.setting}}&nbsp;" tabIcon="settings"  ></ion-tab>
 </ion-tabs>

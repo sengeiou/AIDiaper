@@ -45,8 +45,10 @@ export class HomePage extends AppBase {
     this.nativeAudio.preloadSimple('fall', 'assets/ring/fall.mp3');
     this.nativeAudio.preloadSimple('wet', 'assets/ring/wet.mp3');
     this.nativeAudio.preloadSimple('fanshen', 'assets/ring/fanshen.mp3');
+    this.nativeAudio.preloadSimple('fanshen2', 'assets/ring/fanshen2.mp3');
   }
   onMyShow() {
+    //alert(this.Lang["generalindex"]);
     var that = this;
     this.aidevice.startTime();
     this.aidevice.setNotification(this.localNotifications);

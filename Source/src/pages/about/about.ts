@@ -5,6 +5,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import Chart from 'chart.js';
 import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { DataMgr } from '../home/datamgr';
+import { AppLang } from '../../app/app.lang';
 
 @Component({
   selector: 'page-about',
@@ -44,10 +45,10 @@ export class AboutPage extends AppBase {
     this.daterange = [];
     var today = new Date();
 
-    this.daterange.push({ datetext: "当日", from: this.util.FormatDate(today), to: this.util.FormatDate(today), fromtime: today.getTime(), totime: today.getTime() });
-    this.daterange.push({ datetext: "近7日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 7)), to: this.util.FormatDate(today), fromtime: today.getTime() - 24 * 3600 * 1000 * 7, totime: today.getTime() });
-    this.daterange.push({ datetext: "近14日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 14)), to: this.util.FormatDate(today), fromtime: today.getTime() - 24 * 3600 * 1000 * 14, totime: today.getTime() });
-    this.daterange.push({ datetext: "近30日", from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 30)), to: this.util.FormatDate(today), fromtime: today.getTime() - 24 * 3600 * 1000 * 30, totime: today.getTime() });
+    this.daterange.push({ datetext: this.Lang["day1"], from: this.util.FormatDate(today), to: this.util.FormatDate(today), fromtime: today.getTime(), totime: today.getTime() });
+    this.daterange.push({ datetext: this.Lang["day7"], from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 7)), to: this.util.FormatDate(today), fromtime: today.getTime() - 24 * 3600 * 1000 * 7, totime: today.getTime() });
+    this.daterange.push({ datetext: this.Lang["day14"], from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 14)), to: this.util.FormatDate(today), fromtime: today.getTime() - 24 * 3600 * 1000 * 14, totime: today.getTime() });
+    this.daterange.push({ datetext: this.Lang["day30"], from: this.util.FormatDate(new Date(today.getTime() - 24 * 3600 * 1000 * 30)), to: this.util.FormatDate(today), fromtime: today.getTime() - 24 * 3600 * 1000 * 30, totime: today.getTime() });
 
 
 
@@ -91,7 +92,7 @@ export class AboutPage extends AppBase {
                 display: true,
                 scaleLabel: {
                   display: true,
-                  labelString: '毫升'
+                  labelString: 'ml'
                 },
                 ticks: {
                   min: 0,
@@ -138,7 +139,7 @@ export class AboutPage extends AppBase {
             type: 'bar',
             data: {
               datasets: [{
-                label: "尿湿记录",
+                label: this.Lang["record_1"],
                 data: data,
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
@@ -193,7 +194,7 @@ export class AboutPage extends AppBase {
             data: {
               labels: labels,
               datasets: [{
-                label: "跌落记录",
+                label: this.Lang["record_2"],
                 data: data,
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
@@ -212,7 +213,7 @@ export class AboutPage extends AppBase {
                   display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: '次'
+                    labelString: this.Lang["ci"]
                   },
                   ticks: {
                     min: 0,
@@ -238,7 +239,7 @@ export class AboutPage extends AppBase {
           var ft = "";
 
 
-          ft = this.daterange[this.ds2].from + "到" + this.daterange[this.ds2].to;
+          ft = this.daterange[this.ds2].from + this.Lang["dao"] + this.daterange[this.ds2].to;
           for (let da of ret) {
             labels.push(da.date);
 
@@ -251,7 +252,7 @@ export class AboutPage extends AppBase {
             data: {
               labels: labels,
               datasets: [{
-                label: "用片统计",
+                label: this.Lang["record_3"],
                 data: data,
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
@@ -270,7 +271,7 @@ export class AboutPage extends AppBase {
                   display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: '次'
+                    labelString: this.Lang["ci"]
                   },
                   ticks: {
                     min: 0,
@@ -295,8 +296,7 @@ export class AboutPage extends AppBase {
           var data = [];
           var ft = "";
 
-
-          ft = this.daterange[this.ds3].from + "到" + this.daterange[this.ds3].to;
+          ft = this.daterange[this.ds3].from + this.Lang["dao"] + this.daterange[this.ds3].to;
           for (let da of ret) {
             var d = 0;
             
@@ -317,7 +317,7 @@ export class AboutPage extends AppBase {
                 display: true,
                 scaleLabel: {
                   display: true,
-                  labelString: '毫升'
+                  labelString: 'ml'
                 },
                 ticks: {
                   min: 0,
@@ -377,7 +377,7 @@ export class AboutPage extends AppBase {
             type: 'bar',
             data: {
               datasets: [{
-                label: "尿量统计",
+                label: this.Lang["record_4"],
                 data: data,
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
@@ -417,7 +417,7 @@ export class AboutPage extends AppBase {
           display: true,
           scaleLabel: {
             display: true,
-            labelString: '毫升'
+            labelString: 'ml'
           },
           ticks: {
             min: 0,

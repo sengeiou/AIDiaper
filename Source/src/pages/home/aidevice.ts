@@ -5,6 +5,7 @@ import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { DataMgr } from "./datamgr";
 
 import { NativeAudio } from '@ionic-native/native-audio';
+import { AppLang } from "../../app/app.lang";
 
 export class AIDevice {
     deviceid = "";
@@ -38,18 +39,21 @@ export class AIDevice {
 
 
     statuslist = [];
-    disconnectstatus = { color: "#fcfcfc", name: "断开", idx: "", msg: "目前无法获得设备信息" };
-    unclickstatus = { color: "#fcfcfc", name: "打开", idx: "", msg: "夹子打开了，请更换纸尿裤" };
-    currentstatus = { color: "#fcfcfc", name: "断开", idx: "" };
+    disconnectstatus = { color: "#fcfcfc", name: "unconnec", idx: "", msg: "nodeviceconnect" };
+    unclickstatus = { color: "#fcfcfc", name: "connec", idx: "", msg: "clickopenandchange" };
+    currentstatus = { color: "#fcfcfc", name: "unconnec", idx: "" };
 
     temperature = "--";
     v0 = 0.0;
-    battery = "已断开";
+    battery = AppLang.Lang["unconnec"];
     post = "";
     postimg = "";
     nomovetime = "--";
 
     fall = "N";
+
+
+    fan = "N";
 
     statusCheck = null;
     level = 0;
@@ -59,11 +63,11 @@ export class AIDevice {
 
 
     constructor() {
-        this.statuslist.push({ color: "rgb(66,187,55)", name: "舒适", msg: "目前感觉非常舒适", v: 100, wet: 0 });
-        this.statuslist.push({ color: "rgb(107,251,13)", name: "干爽", msg: "目前状态良好", v: 75, wet: 1 });
-        this.statuslist.push({ color: "rgb(255,255,11)", name: "适中", msg: "目前状态适中", v: 50, wet: 2 });
-        this.statuslist.push({ color: "rgb(253,166,10)", name: "微潮", msg: "纸尿裤状态已经微湿，请立即更换", v: 25, wet: 3 });
-        this.statuslist.push({ color: "rgb(250,0,63)", name: "潮湿", msg: "纸尿裤状态已经不舒服，请立即更换", v: 0, wet: 4 });
+        this.statuslist.push({ color: "rgb(66,187,55)", name: "status_0", msg: "msg_0", v: 100, wet: 0 });
+        this.statuslist.push({ color: "rgb(107,251,13)", name: "status_1" , msg: "msg_1", v: 75, wet: 1 });
+        this.statuslist.push({ color: "rgb(255,255,11)", name: "status_2" , msg: "msg_2", v: 50, wet: 2 });
+        this.statuslist.push({ color: "rgb(253,166,10)", name: "status_3" , msg: "msg_3", v: 25, wet: 3 });
+        this.statuslist.push({ color: "rgb(250,0,63)", name: "status_4" , msg: "msg_4", v: 0, wet: 4 });
 
         this.currentstatus = this.disconnectstatus;
         this.lastupdatetime = (new Date).getTime() / 1000;
@@ -83,20 +87,20 @@ export class AIDevice {
             this.cleardata();
             if (this.sendunconnect == false) {
                 this.sendunconnect = true;
-                this.notify(4, "已断开连接");
+                this.notify(4, AppLang.Lang["havebeenunconnect"]);
             }
         }
         if (this.lasttimespan > 0) {
             var ts = parseInt((nowtime - this.lasttimespan).toFixed());
             if (ts < 60) {
-                this.usetime = ts + "秒";
+                this.usetime = ts + AppLang.Lang["s"];
             } else if (60 <= ts && ts < 3600) {
-                this.usetime = (ts / 60).toFixed() + "分钟";
+                this.usetime = (ts / 60).toFixed() + AppLang.Lang["m"];
             } else {
-                this.usetime = (ts / 3600).toFixed() + "小时";
+                this.usetime = (ts / 3600).toFixed() + AppLang.Lang["h"];
                 var lstminute = parseInt(((ts % 3600) / 60).toFixed());
                 if (lstminute > 0) {
-                    this.usetime += lstminute + "分钟";
+                    this.usetime += lstminute + AppLang.Lang["m"];
                 }
             }
         }
@@ -219,6 +223,7 @@ export class AIDevice {
         else
             return 31;
     }
+
     private getDataPosition() {
         if (this.Version == 0)
             return 18;
@@ -229,6 +234,7 @@ export class AIDevice {
         else
             return 9;
     }
+
     private setVersion() {
         if (this.scanRecord.length < 25 || this.scanRecord[0] != 0x02 || this.scanRecord[1] != 0x01 ||
             this.scanRecord[2] != 0x06 || this.scanRecord[3] != 0x03 || this.scanRecord[4] != 0x03 ||
@@ -429,16 +435,16 @@ export class AIDevice {
         } else if (this.redV < DataValue) {
             level = 4;
             this.currentstatus = this.statuslist[4];
-            this.notify(15, this.statuslist[4].msg);
+            this.notify(15, AppLang.Lang[this.statuslist[4].msg]);
         }
         if (level > this.level) {
             if (level == 1) {
                 this.db.addWetRecord(this.deviceid, 2, this.ml);
-                this.notify(12, this.statuslist[1].msg);
+                this.notify(12, AppLang.Lang[this.statuslist[1].msg]);
             }
             if (level == 4) {
                 this.db.addWetRecord(this.deviceid, 2, this.ml);
-                this.notify(14, this.statuslist[4].msg);
+                this.notify(14, AppLang.Lang[this.statuslist[4].msg]);
             }
             this.level = level;
         }
@@ -480,18 +486,30 @@ export class AIDevice {
     getPost() {
         var posture = this.mData[5];
         if ((posture & 0x1) == 1) {  //sleeping
-            this.post = "卧睡";
+            this.post = AppLang.Lang["selectdown"];
+            if(this.postimg!="卧"){
+                this.fan=="N";
+            }
             this.postimg = "卧";
         } else if ((posture >> 1 & 0x1) == 1) {
-            this.post = "左睡";
+            this.post = AppLang.Lang["selectleft"];
+            if(this.postimg!="左"){
+                this.fan=="N";
+            }
             this.postimg = "左";
         }
         else if ((posture >> 2 & 0x1) == 1) {
-            this.post = "仰睡";
+            this.post = AppLang.Lang["selectup"];
+            if(this.postimg!="仰"){
+                this.fan=="N";
+            }
             this.postimg = "仰";
         }
         else if ((posture >> 3 & 0x1) == 1) {
-            this.post = "右睡";
+            this.post = AppLang.Lang["selectright"];
+            if(this.postimg!="右"){
+                this.fan=="N";
+            }
             this.postimg = "右";
         }
         else if ((posture >> 4 & 0x1) == 1) {
@@ -511,26 +529,29 @@ export class AIDevice {
         var move = (this.mData[6] & 0xFF);
         var ts = parseInt((move * 1).toFixed());
         if (ts < 60) {
-            this.nomovetime = ts + "秒";
+            this.nomovetime = ts + AppLang.Lang["s"];
         } else if (60 <= ts && ts < 3600) {
-            this.nomovetime = (ts / 60).toFixed() + "分钟";
+            this.nomovetime = (ts / 60).toFixed() + AppLang.Lang["m"];
         } else {
-            this.nomovetime = (ts / 3600).toFixed() + "小时";
+            this.nomovetime = (ts / 3600).toFixed() + AppLang.Lang["h"];
         }
-        var fanshentips = "翻身时间到了，请即使护理，谢谢！";
+        var fanshentips = AppLang.Lang["timetochange"];
         var hoursecond=3600;
         if (AppBase.Setting.fanshen == "1") {
             if (ts > 1 * hoursecond) {
+                this.fan=="Y";
                 this.notify(5, fanshentips)
             }
         }
         if (AppBase.Setting.fanshen == "2") {
             if (ts > 2 * hoursecond) {
+                this.fan=="Y";
                 this.notify(5, fanshentips)
             }
         }
         if (AppBase.Setting.fanshen == "3") {
             if (ts > 3 * hoursecond) {
+                this.fan=="Y";
                 this.notify(5, fanshentips)
             }
         }
@@ -544,11 +565,15 @@ export class AIDevice {
                 this.db.addWetRecord(this.deviceid, 4, this.ml);
             }
             this.fall = "Y";
-            this.notify(3, "跌落了，请赶快处理");
+            this.notify(3, AppLang.Lang["falltohelp"]);
         } else {
             //this.fall = "N";
         }
 
+    }
+    debugFall(){
+        //this.fall = "Y";
+        //this.notify(3, AppLang.Lang["falltohelp"]);
     }
 
     cleardata() {
@@ -557,10 +582,9 @@ export class AIDevice {
         this.wetml = "--ml";
         this.cval = "--";
         this.wetval = "--";
-        this.battery = "已断开";
-        this.battery = "已断开";
+        this.battery = AppLang.Lang["unconnected"];
         this.fall = "N";
-        this.post = "无";
+        this.post = AppLang.Lang["no"];
         this.postimg = "";
         this.nomovetime = "--";
         this.usetime = "--";
@@ -588,7 +612,14 @@ export class AIDevice {
 
                 try {
                     if (type == 3) {
-                        this.nativeAudio.play("fall");
+                        var that=this;
+                        var fallinterval=setInterval(function(){
+                            that.nativeAudio.play("fall");
+                            if(that.fall!="Y"){
+                                clearInterval(fallinterval);
+                            }
+                        },1000);
+                        
 
                         this.localNotifications.schedule({
                             id: id,
@@ -606,6 +637,21 @@ export class AIDevice {
                             vibrate: true,
                             sound: "nosound"
                         });
+
+                        var that=this;
+                        var faninterval=setInterval(function(){
+                            that.nativeAudio.play("fanshen2");
+
+                            this.localNotifications.schedule({
+                                id: id,
+                                text: content,
+                                vibrate: true
+                            });
+                            if(that.fan!="Y"){
+                                clearInterval(faninterval);
+                            }
+                        },60000*5);
+
                     } else if (type == 4) {
 
                         this.localNotifications.schedule({
@@ -613,6 +659,7 @@ export class AIDevice {
                             text: content,
                             vibrate: true
                         });
+
                     } else {
 
                         this.nativeAudio.play("wet");
@@ -622,6 +669,7 @@ export class AIDevice {
                             vibrate: true,
                             sound: "nosound"
                         });
+
                     }
                 } catch (e) {
 

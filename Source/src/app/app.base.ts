@@ -11,7 +11,7 @@ export class AppBase{
     static research=false;
 
     static Storage:Storage=null;
-    static Setting={alert:"Y",sound:"Y",shushi:"1",mashu:"1",fanshen:"1"};
+    static Setting={alert:"Y",sound:"Y",shushi:"1",mashu:"1",fanshen:"1",lang:"cn"};
     setting=null;
 
     Lang=[];
@@ -37,20 +37,25 @@ export class AppBase{
         this.modalCtrl=modalCtrl;
         this.viewCtrl=viewCtrl;
         this.statusBar=statusBar;
-        this.Lang=AppLang.InitLang();
         this.setting=AppBase.Setting;
+
+        this.Lang=AppLang.getLang(AppBase.Setting.lang);
+        
     }
     setStatusBar(){
         this.statusBar.styleDefault();
     }
     ionViewDidLoad(){
+        this.Lang=AppLang.getLang(AppBase.Setting.lang);
         this.onMyLoad();
-        
     }
     onMyLoad(){
         
     }
     ionViewDidEnter(){
+        this.reloadSetting();
+        this.Lang=AppLang.getLang(AppBase.Setting.lang);
+        //alert(JSON.stringify(this.Lang));
         this.setStatusBar();
         this.onMyShow();
     }
@@ -105,6 +110,14 @@ export class AppBase{
             return [""];
         }
         return str.split("\n");
+    }
+    reloadSetting(){
+      AppBase.Setting.alert=localStorage.getItem("setting_alert")==null?AppBase.Setting.alert:localStorage.getItem("setting_alert");
+      AppBase.Setting.lang=localStorage.getItem("setting_lang")==null?AppBase.Setting.lang:localStorage.getItem("setting_lang");
+      AppBase.Setting.sound=localStorage.getItem("setting_sound")==null?AppBase.Setting.sound:localStorage.getItem("setting_sound");
+      AppBase.Setting.shushi=localStorage.getItem("setting_shushi")==null?AppBase.Setting.shushi:localStorage.getItem("setting_shushi");
+      AppBase.Setting.mashu=localStorage.getItem("setting_mashu")==null?AppBase.Setting.mashu:localStorage.getItem("setting_mashu");
+      AppBase.Setting.fanshen=localStorage.getItem("setting_fanshen")==null?AppBase.Setting.fanshen:localStorage.getItem("setting_fanshen");
     }
 
 }

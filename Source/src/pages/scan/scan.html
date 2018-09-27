@@ -8,22 +8,22 @@
   <ion-slides pager #myslider >
 
     <ion-slide >
-      <h2 (click)="callnotify()">正在寻找智能感应器</h2>
+      <h2 (click)="callnotify()">{{Lang['findsensor']}}</h2>
     </ion-slide>
   
     <ion-slide >
       <div class="h3">
-        找到以下设备，点击目标设备
+          {{Lang['findandclick']}}
       </div>
       <div *ngFor="let item of devicelist;let i=index;" class="deviceitem margin-top padding-20 white-block"
        (click)="selectDevice(item)">
        <div class="flex-row flex-bottom" >
-        <div >设备名：{{item.name}}</div>
-        <div class="h6 txt-primary text-right flex-1">状态：{{item.clicked?"扣上":"打开"}}</div>
+        <div >{{Lang['devicename']}}：{{item.name}}</div>
+        <div class="h6 txt-primary text-right flex-1">{{Lang['status']}}：{{item.clicked?Lang['clicked']:Lang['opened']}}</div>
        </div>
         <div class="flex-row" >
-          <div class="h6 txt-gray">地址：{{item.id}}</div>
-          <div class="h6 txt-gray text-right flex-1">信号强度：{{item.rssi}}</div>
+          <div class="h6 txt-gray">{{Lang['address']}}：{{item.id}}</div>
+          <div class="h6 txt-gray text-right flex-1">{{Lang['signal']}}：{{item.rssi}}</div>
         </div>
         <!--
         <div class="h6">

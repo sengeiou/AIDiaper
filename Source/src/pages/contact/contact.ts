@@ -3,6 +3,7 @@ import { NavController,ModalController, ViewController } from 'ionic-angular';
 import {AppBase} from "../../app/app.base";
 import { StatusBar } from '@ionic-native/status-bar';
 import { ShengmingPage } from '../shengming/shengming';
+import { AppLang } from '../../app/app.lang';
 
 @Component({
   selector: 'page-contact',
@@ -16,19 +17,33 @@ export class ContactPage extends AppBase {
     super(navCtrl,modalCtrl,viewCtrl,statusBar);
   }
   selectAlert(e){
-    AppBase.Storage.set("setting_alert",this.setting.alert);
+    localStorage.setItem("setting_alert",this.setting.alert);
   }
   selectSound(e){
-    AppBase.Storage.set("setting_sound",this.setting.sound);
+    localStorage.setItem("setting_sound",this.setting.sound);
   }
   selectShushi(e){
-    AppBase.Storage.set("setting_shushi",this.setting.shushi);
+    localStorage.setItem("setting_shushi",this.setting.shushi);
   }
   selectMashu(e){
-    AppBase.Storage.set("setting_mashu",this.setting.mashu);
+    //alert(this.setting.mashu);
+    localStorage.setItem("setting_mashu",this.setting.mashu);
   }
   selectFanshen(e){
-    AppBase.Storage.set("setting_fanshen",this.setting.fanshen);
+    //alert(this.setting.fanshen);
+    localStorage.setItem("setting_fanshen",this.setting.fanshen);
+  }
+  selectLang(e){
+    localStorage.setItem("setting_lang",this.setting.lang);
+    
+    AppLang.getLang(this.setting.lang);
+    this.Lang=AppLang.Lang;
+  }
+  onMyLoad(){
+
+  }
+  onMyShow(){
+
   }
   rescan(){
     AppBase.research=true;
