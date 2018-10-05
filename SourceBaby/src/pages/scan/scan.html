@@ -1,0 +1,36 @@
+<!--
+  Generated template for the ScanPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+  <ion-slides pager #myslider >
+
+    <ion-slide >
+      <h2 (click)="callnotify()">{{Lang['findsensor']}}</h2>
+    </ion-slide>
+  
+    <ion-slide >
+      <div class="h3">
+          {{Lang['findandclick']}}
+      </div>
+      <div *ngFor="let item of devicelist;let i=index;" class="deviceitem margin-top padding-20 white-block"
+       (click)="selectDevice(item)">
+       <div class="flex-row flex-bottom" >
+        <div >{{Lang['devicename']}}：{{item.name}}</div>
+        <div class="h6 txt-primary text-right flex-1">{{Lang['status']}}：{{item.clicked?Lang['clicked']:Lang['opened']}}</div>
+       </div>
+        <div class="flex-row" >
+          <div class="h6 txt-gray">{{Lang['address']}}：{{item.id}}</div>
+          <div class="h6 txt-gray text-right flex-1">{{Lang['signal']}}：{{item.rssi}}</div>
+        </div>
+        <!--
+        <div class="h6">
+          {{item.data}}
+        </div>-->
+      </div>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

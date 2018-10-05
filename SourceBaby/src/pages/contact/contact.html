@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{Lang["setting"]}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-list-header>
+            {{Lang["basesetting"]}}
+        </ion-list-header>
+        <ion-item>
+          <ion-label>{{Lang["language"]}}</ion-label>
+          <ion-select  [(ngModel)]="setting.lang" (ionChange)="selectLang()"  cancelText="{{Lang['cancel']}}" okText="{{Lang['ok']}}">
+            <ion-option value="cn" selected="{{setting.lang=='cn'}}">{{Lang.cn}}</ion-option>
+            <ion-option value="en"  selected="{{setting.lang=='en'}}" >{{Lang.en}}</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label>{{Lang["alert"]}}</ion-label>
+          <ion-select  [(ngModel)]="setting.alert" (ionChange)="selectAlert()"  cancelText="{{Lang['cancel']}}" okText="{{Lang['ok']}}">
+            <ion-option value="Y" >{{Lang["on"]}}</ion-option>
+            <ion-option value="N"  >{{Lang["off"]}}</ion-option>
+          </ion-select>
+        </ion-item>
+        <!--
+        <ion-item>
+          <ion-label>声音</ion-label>
+          <ion-select  [(ngModel)]="setting.sound"  (ionChange)="selectSound()" cancelText="取消" okText="确认">
+            <ion-option value="Y" >开</ion-option>
+            <ion-option value="N"  >关</ion-option>
+          </ion-select>
+        </ion-item>-->
+        <ion-item>
+          <ion-label>{{Lang["accurrency"]}}</ion-label>
+          <ion-select [(ngModel)]="setting.shushi"  (ionChange)="selectShushi()" cancelText="{{Lang['cancel']}}" okText="{{Lang['ok']}}">
+            <ion-option value="0">{{Lang["shushi_0"]}}</ion-option>
+            <ion-option value="1">{{Lang["shushi_1"]}}</ion-option>
+            <ion-option value="2">{{Lang["shushi_2"]}}</ion-option>
+            <ion-option value="3">{{Lang["shushi_3"]}}</ion-option>
+            <ion-option value="4">{{Lang["shushi_4"]}}</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label>{{Lang["size"]}}</ion-label>
+          <ion-select [(ngModel)]="setting.mashu" s (ionChange)="selectMashu()"  cancelText="{{Lang['cancel']}}" okText="{{Lang['ok']}}">
+            <ion-option value="1">XL</ion-option>
+            <ion-option value="2">L</ion-option>
+            <ion-option value="3">M</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label>{{Lang["fanshentips"]}}</ion-label>
+          <ion-select [(ngModel)]="setting.fanshen"  (ionChange)="selectFanshen()"   cancelText="{{Lang['cancel']}}" okText="{{Lang['ok']}}">
+            <ion-option value="1">1{{Lang["hour"]}}</ion-option>
+            <ion-option value="2">2{{Lang["hour"]}}</ion-option>
+            <ion-option value="3">3{{Lang["hour"]}}</ion-option>
+            <ion-option value="4">{{Lang["noalert"]}}</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item (click)="gotosehngming()">
+            <ion-label>{{Lang["usestatement"]}}</ion-label>
+            <ion-icon name="arrow-forward" item-end></ion-icon>
+        </ion-item>
+      </ion-list>
+      
+      <button ion-button (click)="rescan(1)" class="bottombutton">
+          {{Lang["rescan"]}}
+        </button>
+
+
+</ion-content>

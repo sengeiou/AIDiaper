@@ -1,0 +1,29 @@
+page-about {
+    .content-ios,.content-md{
+        background-color:white;
+    }
+    .tab-active{
+        border-bottom: 2px solid #321663;
+    }
+    .noshow{
+        display:none;
+    }
+    .show{
+        display: "";
+    }
+    .pagetab{
+        height: calc( 100% - 50px );
+    }
+    .ds{
+        padding:2px 5px 2px 5px;
+        border:#84817E solid 1px;
+        color:#84817E;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .dsselect{
+
+        border:#3F51B5 solid 1px;
+        color:#3F51B5;
+    }
+}

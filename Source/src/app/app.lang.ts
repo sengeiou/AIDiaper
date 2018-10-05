@@ -21,13 +21,13 @@ export class AppLang {
         ret["usetime"]="已使用时长"; 
         ret["temperature"]="温度"; 
         ret["generalindex"]="综合舒适指数"; 
-        ret["forecastniaoliang"]="预测尿量"; 
+        ret["forecastniaoliang"]="预测<br />尿量"; 
         ret["xishouliang"]="可吸收量"; 
-        ret["urgent"]="应急提醒"; 
+        ret["urgent"]="应急<br />提醒"; 
         ret["urgenttips"]="应急提醒"; 
         ret["nodata"]="暂无"; 
         ret["fallcare"]="摔倒护理"; 
-        ret["sleepmonitor"]="睡姿监控"; 
+        ret["sleepmonitor"]="睡姿<br />监控"; 
         ret["posttime"]="睡时长"; 
         ret["usersetting"]="用户设置"; 
         ret["sound"]="声音"; 
@@ -278,10 +278,10 @@ export class AppLang {
         ret["state_2"]="2. This product has the \"Drop Alarm\" function. If there is a deviation in the use process, it is within the allowable error range of the product design; the alarm data is related to multiple factors, so this function is for reference only";
         ret["state_3"]="3. All interpretation rights of this product belong to Guangdong Carelder Health Industry Technology Co., Ltd.        ";
 
-        ret["卧"]="down";
-        ret["左"]="left";
-        ret["仰"]="up";
-        ret["右"]="right";
+        ret["卧"]="";
+        ret["左"]="";
+        ret["仰"]="";
+        ret["右"]="";
         return ret;
     }
     static getLang(lang){
