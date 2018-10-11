@@ -34,8 +34,13 @@ export class AppUtil {
     }
 
     public static FormatDateTime(val: Date) {
-        return val.getFullYear() + "-" + (val.getMonth() + 1) + "-" + val.getDate() +
-            " " + val.getHours() + ":" + val.getMinutes() + ":" + val.getSeconds();
+        var monthstr=(val.getMonth() + 1)>9?(val.getMonth() + 1).toString():"0"+(val.getMonth() + 1).toString();
+        var datestr=(val.getDate() )>9?(val.getDate() ).toString():"0"+(val.getDate() ).toString();
+        var hourstr=(val.getHours() )>9?(val.getHours() ).toString():"0"+(val.getHours() ).toString();
+        var minstr=(val.getMinutes() )>9?(val.getMinutes() ).toString():"0"+(val.getMinutes() ).toString();
+        var secstr=(val.getSeconds() )>9?(val.getSeconds() ).toString():"0"+(val.getSeconds() ).toString();
+        return val.getFullYear() + "-" + monthstr + "-" + datestr+
+            " " + hourstr + ":" + minstr + ":" + secstr;
     }
 
     public static IsMobileNo(str){
@@ -56,7 +61,14 @@ export class AppUtil {
         return val.toFixed(digits);
     }
     public static FormatDate(val: Date) {
+        var monthstr=(val.getMonth() + 1)>9?(val.getMonth() + 1).toString():"0"+(val.getMonth() + 1).toString();
+        var datestr=(val.getDate() )>9?(val.getDate() ).toString():"0"+(val.getDate() ).toString();
         return val.getFullYear() + "-" + (val.getMonth() + 1) + "-" + val.getDate();
+    }
+    public static FormatDate2(val: Date) {
+        var monthstr=(val.getMonth() + 1)>9?(val.getMonth() + 1).toString():"0"+(val.getMonth() + 1).toString();
+        var datestr=(val.getDate() )>9?(val.getDate() ).toString():"0"+(val.getDate() ).toString();
+        return val.getFullYear() + "-" + monthstr + "-" + datestr;
     }
 
     public static DateTimeStrToDate(datetimestr:string){

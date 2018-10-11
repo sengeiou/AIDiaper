@@ -42,8 +42,15 @@
 
             <div class="flex-row flex-center margin-top-10" *ngFor="let sub of sta;let k=index;">
               <div class="h5 txt-gray flex-1">{{sub.record_time_formatting}}</div>
-              <div class="h5 txt-gray flex-1">{{k==0?Lang["startpee"]:""}} {{k>0&&k<sta.length-1? Lang["peetips"] : "" }}
-                  {{k==sta.length-1? Lang["changepaper"]: ""}} </div> <div class="h5 txt-gray flex-1">{{sub.ml}}ml</div>
+              <div class="h5 txt-gray flex-1">
+                {{k==0?Lang["startuse"]:""}} 
+                {{k==1&&sub.op=='2'?Lang["startpee"]:""}} 
+                {{k==1&&sub.op=='3'?Lang["changepaper"]:""}} 
+                {{k>1&&sub.op=='2'? Lang["peetips"] : "" }}
+                {{k>1&&sub.op=='3'? Lang["changepaper"] : "" }}
+               </div> 
+              <div class="h5 txt-gray flex-1" *ngIf="sub.ml>=20">{{sub.ml}}ml</div>
+              <div class="h5 txt-gray flex-1" *ngIf="sub.ml<20"></div>
             </div>
 
           </div>
@@ -103,9 +110,9 @@
       <div class="flex-row margin-top-10" *ngFor="let item of dt2;let l=index;">
         <div class="h5 txt-gray flex-1 text-center">{{item.date}}</div>
         <div class="h5 txt-gray flex-1 text-center">
-          <div [class.txt-primary]="item.val.length>0" (click)="item.show=(item.show==true?false:true)">{{item.val.length}}</div>
+          <div [class.txt-primary]="item.val.length>0" (click)="item.show=(item.show==true?false:true)">{{item.crec.length}}</div>
           <div *ngIf="item.show==true">
-            <div class="txt-gray h6" *ngFor="let sub of item.val;let k=index;">{{sub[sub.length-1].record_time_formatting}}</div>
+            <div class="txt-gray h6" *ngFor="let sub of item.crec;let k=index;">{{sub.record_time_formatting}} {{sub.ml}}ml</div>
           </div>
         </div>
       </div>

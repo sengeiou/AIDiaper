@@ -1,0 +1,506 @@
+[
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/xml_appupdate_paths.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/xml/appupdate_paths.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/xml/config.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/raw_fall.mp3.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/raw/fall.mp3"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/xml_localnotification_provider_paths.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/xml/localnotification_provider_paths.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-land-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/xml/config.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/mipmap-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-port-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_appupdate_progress.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/layout/appupdate_progress.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-port-xhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/mipmap-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-port-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/xml_localnotification_provider_paths.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/xml/localnotification_provider_paths.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-land-xhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-port-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/raw_wet.mp3.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/raw/wet.mp3"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/xml_appupdate_paths.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/xml/appupdate_paths.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-land-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/raw_wet.mp3.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/raw/wet.mp3"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_appupdate_progress.xml.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/layout/appupdate_progress.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/mipmap-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-land-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2f208bf755c1ee87b68c230c5298cd38/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/raw_fall.mp3.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/raw/fall.mp3"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
+        "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]

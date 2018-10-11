@@ -74,7 +74,7 @@ export class AppLang {
         ret["msg_2"]="目前状态适中"; 
         ret["msg_3"]="纸尿裤状态已经微湿，请立即更换"; 
         ret["msg_4"]="纸尿裤状态已经不舒服，请立即更换"; 
-         
+        
         ret["unconnec"]="断开"; 
         ret["connect"]="打开"; 
         ret["nodeviceconnect"]="目前无法获得设备信息";
@@ -106,11 +106,12 @@ export class AppLang {
         ret["time"]="时间";
         ret["status"]="状态";
         ret["peeml"]="尿量";
+        ret["startuse"]="开始使用";
         ret["startpee"]="开始尿湿";
         ret["peetips"]="尿湿提醒";
         ret["changepaper"]="更换尿布";
         ret["date"]="日期";
-        ret["usetime"]="用品次数";
+        ret["usetime"]="用片数";
 
 
         ret["day1"]="当日";
@@ -216,8 +217,8 @@ export class AppLang {
         ret["msg_3"]="Diaper is wet, please replace it."; 
         ret["msg_4"]="Diaper is very wet, replace it immediately."; 
          
-        ret["unconnec"]="disconnected"; 
-        ret["connect"]="Connect"; 
+        ret["unconnec"]="Disconnected"; 
+        ret["connect"]="Opened";
         ret["nodeviceconnect"]="Lost device now.";
         ret["clickopenandchange"]="Device is unclicked, please check it."; 
         
@@ -247,6 +248,7 @@ export class AppLang {
         ret["time"]="Time";
         ret["status"]="Status";
         ret["peeml"]="Urine Volume";
+        ret["startuse"]="Start";
         ret["startpee"]="First Wet";
         ret["peetips"]="Wet Alarm";
         ret["changepaper"]="Replace";

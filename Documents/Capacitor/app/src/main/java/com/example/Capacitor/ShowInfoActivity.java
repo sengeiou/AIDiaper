@@ -1265,7 +1265,7 @@ if(soundable==false)return;
                     DataValue=tempV- 30;
                 }
                 if (DataValue < 0) DataValue = 0;
-                updateNewValue(DataValue);
+				updateNewValue(DataValue);
             }
 			mCValue.setText("" + DataValue);
 			int tempcc=0;

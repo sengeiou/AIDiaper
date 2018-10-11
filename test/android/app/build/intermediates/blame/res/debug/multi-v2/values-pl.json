@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+            "map": [
+                {
+                    "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/values-pl/appupdate_strings.xml",
+                    "from": {
+                        "startLines": "9,12,11,10,8,7,15,14,16,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "482,684,613,550,427,378,808,756,924,55,183,124,269,326",
+                        "endColumns": "67,70,70,62,54,48,115,51,51,68,85,58,56,51",
+                        "endOffsets": "545,750,679,608,477,422,919,803,971,119,264,178,321,373"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,194,265,429,484,533,649,701,753,822,908,967,1024",
+                        "endColumns": "67,70,70,62,54,48,115,51,51,68,85,58,56,51",
+                        "endOffsets": "118,189,260,323,479,528,644,696,748,817,903,962,1019,1071"
+                    }
+                },
+                {
+                    "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "100",
+                        "endOffsets": "424"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+            "map": [
+                {
+                    "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/values-pl/appupdate_strings.xml",
+                    "from": {
+                        "startLines": "9,12,11,10,8,7,15,14,16,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "482,684,613,550,427,378,808,756,924,55,183,124,269,326",
+                        "endColumns": "67,70,70,62,54,48,115,51,51,68,85,58,56,51",
+                        "endOffsets": "545,750,679,608,477,422,919,803,971,119,264,178,321,373"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,194,265,429,484,533,649,701,753,822,908,967,1024",
+                        "endColumns": "67,70,70,62,54,48,115,51,51,68,85,58,56,51",
+                        "endOffsets": "118,189,260,323,479,528,644,696,748,817,903,962,1019,1071"
+                    }
+                },
+                {
+                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "100",
+                        "endOffsets": "424"
+                    }
+                }
+            ]
+        }
+    ]
+}

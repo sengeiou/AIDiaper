@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "100",
+                        "endOffsets": "391"
+                    }
+                },
+                {
+                    "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/values-ko/appupdate_strings.xml",
+                    "from": {
+                        "startLines": "9,12,11,10,8,7,15,14,16,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "404,580,518,458,355,310,695,645,779,55,156,106,212,263",
+                        "endColumns": "53,63,61,59,48,44,83,49,51,50,55,49,50,46",
+                        "endOffsets": "453,639,575,513,399,350,774,690,826,101,207,151,258,305"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,173,235,396,445,490,574,624,676,727,783,833,884",
+                        "endColumns": "53,63,61,59,48,44,83,49,51,50,55,49,50,46",
+                        "endOffsets": "104,168,230,290,440,485,569,619,671,722,778,828,879,926"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "/Users/steve/Documents/GitHub/AIDiaper/test/android/app/src/main/res/values-ko/appupdate_strings.xml",
+                    "from": {
+                        "startLines": "9,12,11,10,8,7,15,14,16,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "404,580,518,458,355,310,695,645,779,55,156,106,212,263",
+                        "endColumns": "53,63,61,59,48,44,83,49,51,50,55,49,50,46",
+                        "endOffsets": "453,639,575,513,399,350,774,690,826,101,207,151,258,305"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,173,235,396,445,490,574,624,676,727,783,833,884",
+                        "endColumns": "53,63,61,59,48,44,83,49,51,50,55,49,50,46",
+                        "endOffsets": "104,168,230,290,440,485,569,619,671,722,778,828,879,926"
+                    }
+                },
+                {
+                    "source": "/Users/steve/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4bf88f0ac675b39db3e9fe3b4220165d/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "100",
+                        "endOffsets": "391"
+                    }
+                }
+            ]
+        }
+    ]
+}

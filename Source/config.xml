@@ -90,5 +90,5 @@
     <plugin name="cordova-plugin-app-update" spec="~1.6.0" />
     <plugin name="cordova-sqlite-storage" spec="^2.4.0" />
     <engine name="ios" spec="4.5.5" />
-    <engine name="android" spec="7.0.0" />
+    <engine name="android" spec="^7.1.1" />
 </widget>

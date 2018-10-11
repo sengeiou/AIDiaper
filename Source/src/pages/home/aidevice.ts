@@ -6,6 +6,7 @@ import { DataMgr } from "./datamgr";
 
 import { NativeAudio } from '@ionic-native/native-audio';
 import { AppLang } from "../../app/app.lang";
+import { BLE } from "@ionic-native/ble";
 
 export class AIDevice {
     deviceid = "";
@@ -40,7 +41,7 @@ export class AIDevice {
 
     statuslist = [];
     disconnectstatus = { color: "#fcfcfc", name: "unconnec", idx: "", msg: "nodeviceconnect" };
-    unclickstatus = { color: "#fcfcfc", name: "connec", idx: "", msg: "clickopenandchange" };
+    unclickstatus = { color: "#fcfcfc", name: "connect", idx: "", msg: "clickopenandchange" };
     currentstatus = { color: "#fcfcfc", name: "unconnec", idx: "" };
 
     temperature = "--";
@@ -83,11 +84,12 @@ export class AIDevice {
     sendunconnect = false;
     timerFunc() {
         var nowtime = (new Date()).getTime() / 1000;
-        if (nowtime - this.lastupdatetime > 10 * 60) {
+        if (nowtime - this.lastupdatetime > 30) {
             this.cleardata();
             if (this.sendunconnect == false) {
                 this.sendunconnect = true;
                 this.notify(4, AppLang.Lang["havebeenunconnect"]);
+                
             }
         }
         if (this.lasttimespan > 0) {
@@ -105,7 +107,7 @@ export class AIDevice {
             }
         }
     }
-
+    cclick=false;
     reloaddata(deviceid, datastr: String) {
         this.deviceid = deviceid;
         try {
@@ -118,9 +120,9 @@ export class AIDevice {
 
         this.advertising = datastr;
         this.scanRecord = datastr.split(",");
-        this.setVersion();
+        this.Version=AIDevice.GetVersion(this.scanRecord);
 
-        var mlength = this.getwholeDatelength();
+        var mlength = AIDevice.GetwholeDatelength(this.Version);
         if (this.scanRecord.length < mlength) {
             return;
         }
@@ -136,7 +138,7 @@ export class AIDevice {
         }
         //						mTimeOutHandler.removeCallbacks(mThreadTimeOut);
         //						runOnUiThread(capEnter);
-        var mdataPosition = this.getDataPosition();
+        var mdataPosition = AIDevice.GetDataPosition(this.Version);
         for (var i = mdataPosition; i < (this.mData.length + mdataPosition); i++) {
             this.mData[i - mdataPosition] = this.scanRecord[i];
         }
@@ -154,10 +156,13 @@ export class AIDevice {
                 //this.recordapi.update({ mac: this.deviceid, op: "O", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
                 //    console.log(ret);
                 //});
-                this.db.addWetRecord(this.deviceid, 1, this.ml);
+                this.db.addWetRecord(this.deviceid, 3, this.ml);
             }
+
+            //this.db.addWetRecord(this.deviceid, 3, this.ml);
             this.isclick = false;
             this.lasttimespan = 0;
+            this.displayC=530;
             this.cleardata();
             this.currentstatus = this.unclickstatus;
         } else {
@@ -169,8 +174,17 @@ export class AIDevice {
                 // this.recordapi.update({ mac: this.deviceid, op: "C", ml: this.ml, level: this.level, data: this.advertising }).then((ret) => {
                 //    console.log(ret);
                 //});
+                //alert("?kazu");
+                if(this.mData[0] == 0x03){
+                    if(this.cclick==false){
+                        this.db.addWetRecord(this.deviceid, 1, this.ml);
+                        this.cclick=true;
+                        setTimeout(()=>{
+                            this.cclick=false;
+                        },3000);
+                    }
 
-                this.db.addWetRecord(this.deviceid, 1, this.ml);
+                }
             }
 
             this.sendunconnect = false;
@@ -215,80 +229,80 @@ export class AIDevice {
         }
     }
 
-    private getwholeDatelength() {
-        if (this.Version == 0)
+    static GetwholeDatelength(Version) {
+        if (Version == 0)
             return 25;
-        if (this.Version == 1)
+        if (Version == 1)
             return 27;
         else
             return 31;
     }
 
-    private getDataPosition() {
-        if (this.Version == 0)
+    static GetDataPosition(Version) {
+        if (Version == 0)
             return 18;
-        if (this.Version == 1)
+        if (Version == 1)
             return 9;
-        if (this.Version == 2)
+        if (Version == 2)
             return 14;
         else
             return 9;
     }
 
-    private setVersion() {
-        if (this.scanRecord.length < 25 || this.scanRecord[0] != 0x02 || this.scanRecord[1] != 0x01 ||
-            this.scanRecord[2] != 0x06 || this.scanRecord[3] != 0x03 || this.scanRecord[4] != 0x03 ||
-            this.scanRecord[5] != 0x58 || this.scanRecord[6] != 0x69 || String.fromCharCode(this.scanRecord[9]) != 'L' ||
-            String.fromCharCode(this.scanRecord[10]) != 'N' || String.fromCharCode(this.scanRecord[11]) != '-'
-            || String.fromCharCode(this.scanRecord[12]) != '2' ||
-            String.fromCharCode(this.scanRecord[13]) != '0' || String.fromCharCode(this.scanRecord[14]) != '0'
-            || String.fromCharCode(this.scanRecord[15]) != 'N' ||
-            this.scanRecord[18] == 0x00
+    static GetVersion(scanRecord) {
+        if (scanRecord.length < 25 || scanRecord[0] != 0x02 || scanRecord[1] != 0x01 ||
+            scanRecord[2] != 0x06 || scanRecord[3] != 0x03 || scanRecord[4] != 0x03 ||
+            scanRecord[5] != 0x58 || scanRecord[6] != 0x69 || String.fromCharCode(scanRecord[9]) != 'L' ||
+            String.fromCharCode(scanRecord[10]) != 'N' || String.fromCharCode(scanRecord[11]) != '-'
+            || String.fromCharCode(scanRecord[12]) != '2' ||
+            String.fromCharCode(scanRecord[13]) != '0' || String.fromCharCode(scanRecord[14]) != '0'
+            || String.fromCharCode(scanRecord[15]) != 'N' ||
+            scanRecord[18] == 0x00
         ) {
 
-            if (this.scanRecord.length < 27 || this.scanRecord[0] != 0x02 || this.scanRecord[1] != 0x01 ||
-                this.scanRecord[2] != 0x06 ||
-                String.fromCharCode(this.scanRecord[5]) != 'S' || String.fromCharCode(this.scanRecord[6]) != 'A'
-                || String.fromCharCode(this.scanRecord[7]) != 'N' || String.fromCharCode(this.scanRecord[8]) != ' ' || this.scanRecord[9] != 0x01
+            if (scanRecord.length < 27 || scanRecord[0] != 0x02 || scanRecord[1] != 0x01 ||
+                scanRecord[2] != 0x06 ||
+                String.fromCharCode(scanRecord[5]) != 'S' || String.fromCharCode(scanRecord[6]) != 'A'
+                || String.fromCharCode(scanRecord[7]) != 'N' || String.fromCharCode(scanRecord[8]) != ' ' || scanRecord[9] != 0x01
             ) {
-                if (this.scanRecord.length < 31 || this.scanRecord[0] != 0x02 || this.scanRecord[1] != 0x01 ||
-                    this.scanRecord[2] != 0x06
+                if (scanRecord.length < 31 || scanRecord[0] != 0x02 || scanRecord[1] != 0x01 ||
+                    scanRecord[2] != 0x06
 
-                    || this.scanRecord[14] != 0x1 ||
+                    || scanRecord[14] != 0x1 ||
 
-                    ((String.fromCharCode(this.scanRecord[5]) != 'S' || String.fromCharCode(this.scanRecord[6]) != 'A' ||
-                        String.fromCharCode(this.scanRecord[7]) != 'N' ||
-                        String.fromCharCode(this.scanRecord[23]) != 'S' ||
-                        String.fromCharCode(this.scanRecord[24]) != 'W' || String.fromCharCode(this.scanRecord[25]) != 'L' ||
-                        String.fromCharCode(this.scanRecord[26]) != '-' || String.fromCharCode(this.scanRecord[27]) != '0'
-                        || String.fromCharCode(this.scanRecord[28]) != '0' || String.fromCharCode(this.scanRecord[29]) != '9'
-                        || String.fromCharCode(this.scanRecord[30]) != 'c')
+                    ((String.fromCharCode(scanRecord[5]) != 'S' || String.fromCharCode(scanRecord[6]) != 'A' ||
+                        String.fromCharCode(scanRecord[7]) != 'N' ||
+                        String.fromCharCode(scanRecord[23]) != 'S' ||
+                        String.fromCharCode(scanRecord[24]) != 'W' || String.fromCharCode(scanRecord[25]) != 'L' ||
+                        String.fromCharCode(scanRecord[26]) != '-' || String.fromCharCode(scanRecord[27]) != '0'
+                        || String.fromCharCode(scanRecord[28]) != '0' || String.fromCharCode(scanRecord[29]) != '9'
+                        || String.fromCharCode(scanRecord[30]) != 'c')
                         &&
-                        (String.fromCharCode(this.scanRecord[5]) != 'L' || String.fromCharCode(this.scanRecord[6]) != 'N'
-                            || String.fromCharCode(this.scanRecord[7]) != 'T'
-                            || String.fromCharCode(this.scanRecord[24]) != 'L' || String.fromCharCode(this.scanRecord[25]) != 'N' ||
-                            String.fromCharCode(this.scanRecord[26]) != '-' || String.fromCharCode(this.scanRecord[27]) != '2' ||
-                            String.fromCharCode(this.scanRecord[28]) != '0' || String.fromCharCode(this.scanRecord[29]) != '0' ||
-                            String.fromCharCode(this.scanRecord[30]) != 'c'))
+                        (String.fromCharCode(scanRecord[5]) != 'L' || String.fromCharCode(scanRecord[6]) != 'N'
+                            || String.fromCharCode(scanRecord[7]) != 'T'
+                            || String.fromCharCode(scanRecord[24]) != 'L' || String.fromCharCode(scanRecord[25]) != 'N' ||
+                            String.fromCharCode(scanRecord[26]) != '-' || String.fromCharCode(scanRecord[27]) != '2' ||
+                            String.fromCharCode(scanRecord[28]) != '0' || String.fromCharCode(scanRecord[29]) != '0' ||
+                            String.fromCharCode(scanRecord[30]) != 'c'))
                 ) {
 
 
-                    return;
+                    return 2;
                 }
                 else {
 
-                    //String s=String.valueOf(this.scanRecord[5] + this.scanRecord[6]+this.scanRecord[7]+this.scanRecord[28] + this.scanRecord[29]+this.scanRecord[30]);
+                    //String s=String.valueOf(scanRecord[5] + scanRecord[6]+scanRecord[7]+scanRecord[28] + scanRecord[29]+scanRecord[30]);
                     //mScanBt.setText(s);
-                    this.Version = 2;//version C
+                    return 2;//version C
                 }
 
             }
             else {
-                this.Version = 1;
+                return 1;
             }
         }
         else {
-            this.Version = 0;
+            return 0;
         }
     }
 
@@ -354,7 +368,7 @@ export class AIDevice {
         else {
             //只变小不变大
         }
-        if (c >= 80)//C小于80时只有夜尿症适用，需要快，不减速
+        //if (c >= 80)//C小于80时只有夜尿症适用，需要快，不减速
         {
             c = this.displayC;
         }
@@ -557,21 +571,28 @@ export class AIDevice {
         }
 
     }
-
+    fall30=false;//30秒以内的跌倒数据不再重复计入
     checkFall() {
+        var that=this;
         var posture = this.mData[5];
         if ((posture >> 7 & 0x1) == 1) {   //fall
-            if (this.fall != 'Y') {
+            //alert("dielea"+this.fall+"~"+(this.fall30?"30":"100"));
+            if (this.fall != 'Y'&&this.fall30==false) {
+                this.fall30=true;
+                this.fall = "Y";
+                this.notify(3, AppLang.Lang["falltohelp"]);
                 this.db.addWetRecord(this.deviceid, 4, this.ml);
+                setTimeout(function(){
+                    that.fall30=false;
+                },40000);
             }
-            this.fall = "Y";
-            this.notify(3, AppLang.Lang["falltohelp"]);
         } else {
             //this.fall = "N";
         }
 
     }
     debugFall(){
+
         this.db.addWetRecord(this.deviceid, 4, this.ml);
         this.fall = "Y";
         this.notify(3, AppLang.Lang["falltohelp"]);
@@ -580,7 +601,8 @@ export class AIDevice {
     cleardata() {
         this.currentstatus = this.disconnectstatus;
         this.temperature = "--";
-        this.wetml = "--ml";
+        //this.wetml = "--ml";
+        
         this.cval = "--";
         this.wetval = "--";
         this.battery = AppLang.Lang["unconnected"];
@@ -589,7 +611,7 @@ export class AIDevice {
         this.postimg = "";
         this.nomovetime = "--";
         this.usetime = "--";
-        this.displayC = 530;
+        //this.displayC = 530;
     }
     localNotifications: LocalNotifications = null;
     nativeAudio: NativeAudio = null;
@@ -600,6 +622,7 @@ export class AIDevice {
     setNativeAudio(nativeAudio: NativeAudio) {
         this.nativeAudio = nativeAudio;
     }
+    t=0;
     notify(type, content: string) {
         if (AppBase.Setting.alert != "Y") {
             return;
@@ -614,9 +637,12 @@ export class AIDevice {
                 try {
                     if (type == 3) {
                         var that=this;
+                        
                         var fallinterval=setInterval(function(){
                             that.nativeAudio.play("fall");
+                            that.t++;
                             if(that.fall!="Y"){
+                                that.t=0;
                                 clearInterval(fallinterval);
                             }
                         },1000);

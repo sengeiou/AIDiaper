@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml",
+            "map": [
+                {
+                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "352",
+                        "endColumns": "100",
+                        "endOffsets": "448"
+                    }
+                },
+                {
+                    "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/values-it/appupdate_strings.xml",
+                    "from": {
+                        "startLines": "9,12,11,10,8,7,15,14,16,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "493,715,644,572,432,382,845,791,958,55,197,136,276,331",
+                        "endColumns": "78,74,70,71,60,49,112,53,51,80,78,60,54,50",
+                        "endOffsets": "567,785,710,639,488,427,953,840,1005,131,271,192,326,377"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,134,209,280,453,514,564,677,731,783,864,943,1004,1059",
+                        "endColumns": "78,74,70,71,60,49,112,53,51,80,78,60,54,50",
+                        "endOffsets": "129,204,275,347,509,559,672,726,778,859,938,999,1054,1105"
+                    }
+                }
+            ]
+        }
+    ]
+}

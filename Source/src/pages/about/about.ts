@@ -64,7 +64,7 @@ export class AboutPage extends AppBase {
 
           that.loaddata();
 
-        }, 2000);
+        }, 1000);
       });
     } catch (ex) {
 
@@ -245,9 +245,21 @@ export class AboutPage extends AppBase {
 
           ft = this.daterange[this.ds2].from + this.Lang["dao"] + this.daterange[this.ds2].to;
           for (let da of ret) {
+            
             labels.push(da.date);
+            da.crec=[];
+            var ccount=0;
+            for(var i=0;i<da.val.length;i++){
+              for(var j=0;j<da.val[i].length;j++){
 
-            data.push(da.val.length);
+                if(da.val[i][j].op==3){
+                  ccount++;
+                  da.crec.push(da.val[i][j]);
+                  break;
+                }
+              }
+            }
+            data.push(ccount);
           }
 
 

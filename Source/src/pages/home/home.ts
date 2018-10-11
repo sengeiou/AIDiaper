@@ -62,6 +62,15 @@ export class HomePage extends AppBase {
     }else{
       this.tryScan();
     }
+
+
+    try{
+      AppBase.Storage.get("selectdeviceid").then((id)=>{
+        this.selectdeviceid=id;
+      });
+    }catch(ex){
+
+    }
     
     // AppBase.Storage.get("selectdeviceid").then((selectdeviceid)=>{
     //   this.selectdeviceid=selectdeviceid;

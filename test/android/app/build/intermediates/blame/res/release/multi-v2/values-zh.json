@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/values-zh/appupdate_strings.xml",
+                    "from": {
+                        "startLines": "11,10,9,8,7,14,13,15,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "501,442,385,340,295,611,561,679,55,151,105,204,253",
+                        "endColumns": "58,58,56,44,44,67,49,52,49,52,45,48,41",
+                        "endOffsets": "555,496,437,380,335,674,606,727,100,199,146,248,290"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,173,230,275,320,388,438,491,541,594,640,689",
+                        "endColumns": "58,58,56,44,44,67,49,52,49,52,45,48,41",
+                        "endOffsets": "109,168,225,270,315,383,433,486,536,589,635,684,726"
+                    }
+                }
+            ]
+        }
+    ]
+}

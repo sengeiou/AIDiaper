@@ -9,6 +9,7 @@ import { ViewChild } from '@angular/core';
 import { Slides } from 'ionic-angular';
 import { BLE } from '@ionic-native/ble';
 import { NativeAudio } from '@ionic-native/native-audio';
+import {AIDevice} from "../home/aidevice";
 /**
  * Generated class for the ScanPage page.
  *
@@ -43,6 +44,14 @@ export class ScanPage  extends AppBase {
   }
   onMyShow(){
 
+    this.ble.isEnabled().then(()=>{
+      
+    },()=>{
+      this.ble.enable().then(()=>{
+        this.onMyShow();
+      });
+    });
+
     if(AppBase.IsMobileWeb){
 
       this.myslider.stopAutoplay();
@@ -68,11 +77,45 @@ export class ScanPage  extends AppBase {
 
     }
   }
+  
+  
   tryScan(){
     this.ble.startScanWithOptions([], { reportDuplicates: false }).subscribe((device) => {
+      var isclick=false;
+      if(device.advertising != undefined){
+        
+        var scanRecord = device.advertising.split(",");
+        var Version=AIDevice.GetVersion(scanRecord);
 
-
-      if(device.name!=undefined&&device.name==" LN-200c"&&device.advertising != undefined){
+        var mlength = AIDevice.GetwholeDatelength(Version);
+        if (scanRecord.length < mlength) {
+            return;
+        }
+        var mData=[];
+        if (Version == 0) {
+            mData = Array(7);
+        }
+        else if (Version == 1) {
+            mData = Array(7);
+        }
+        else if (Version == 2) {
+            mData = Array(8);
+        }
+        //						mTimeOutHandler.removeCallbacks(mThreadTimeOut);
+        //						runOnUiThread(capEnter);
+        var mdataPosition = AIDevice.GetDataPosition(Version);
+        for (var i = mdataPosition; i < (mData.length + mdataPosition); i++) {
+            mData[i - mdataPosition] = scanRecord[i];
+        }
+        //alert(mdataPosition);
+        //alert(JSON.stringify(mData));
+        if (mData[0] == 0x00 || mData[14] == 0x00) {
+        }else{
+          isclick=true;
+        }
+      }
+      //alert(isclick?"clicked":"no click");
+      if(device.name!=undefined&&device.name==" LN-200c"&&isclick==true){
       if(AppBase.research==false&&device.id==this.selectdeviceid){
         this.selectDevice(device);
       }

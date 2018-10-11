@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/Users/steve/Documents/GitHub/AIDiaper/Source/platforms/android/app/src/main/res/values-pt/appupdate_strings.xml",
+                    "from": {
+                        "startLines": "9,12,11,10,8,7,15,14,16,2,4,3,5,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "488,693,622,552,423,372,821,769,949,55,186,128,267,323",
+                        "endColumns": "63,74,70,69,64,50,127,51,51,72,80,57,55,48",
+                        "endOffsets": "547,763,688,617,483,418,944,816,996,123,262,181,318,367"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,119,194,265,436,501,552,680,732,784,857,938,996,1052",
+                        "endColumns": "63,74,70,69,64,50,127,51,51,72,80,57,55,48",
+                        "endOffsets": "114,189,260,330,496,547,675,727,779,852,933,991,1047,1096"
+                    }
+                },
+                {
+                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "335",
+                        "endColumns": "100",
+                        "endOffsets": "431"
+                    }
+                }
+            ]
+        }
+    ]
+}

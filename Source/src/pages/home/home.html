@@ -3,10 +3,10 @@
     <div>
       <img src="assets/imgs/icon.png" class="logoicon" />
     </div>
-    <div class="margin-left-10 txt-white txt-bold">
+    <div class="margin-left-10 txt-white txt-bold" >
       NO:{{aidevice.no}}
     </div>
-    <div class="flex-1 text-right txt-white" (click)="cal(aidevice.v0)">
+    <div class="flex-1 text-right txt-white" *ngIf="aidevice.v0>0">
       {{Lang["battery"]}}：
     </div>
     <div class="txt-white text-right txt-bold line-height-0">
@@ -19,7 +19,7 @@
       <div *ngIf="aidevice.v0>=2.9" class="battery b3" ></div>
       <div *ngIf="2.8<=aidevice.v0&&aidevice.v0<2.9" class="battery b2"></div>
       <div *ngIf="2.7<=aidevice.v0&&aidevice.v0<2.8" class="battery b1"></div>
-      <div *ngIf="aidevice.v0<2.7" class="battery bs"></div>
+      <div *ngIf="aidevice.v0>0&&aidevice.v0<2.7" class="battery bs"></div>
     </div>
   </div>
 </ion-header>
